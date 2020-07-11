@@ -1,37 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <title>Zh_Song的Cydia源</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-	<style>
-        a {
-        display: inline-block;
-        margin: 0 10px 0 0;
-        }
-
-		body{background:#232a32!important;}
-        body{color:#7e00c5!important;}
-        .container{background:#232a32!important;}
-
-        .text-primary{color:#7e00c5!important;}
-        .panel-heading{color:#7e00c5!important;}
-        .panel-body{color:#232a32!important;}
-	</style>
+  <meta charset="UTF-8">
+  <!-- import CSS -->
+  <link rel="stylesheet" href="./public/css/element-ui.css">
 </head>
+<style>
+  .el-row {
+    margin-bottom: 20px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  .el-col {
+    border-radius: 4px;
+  }
+  .bg-purple-dark {
+    background: #99a9bf;
+  }
+  .bg-purple {
+    background: #d3dce6;
+  }
+  .bg-purple-light {
+    background: #e5e9f2;
+  }
+  .grid-content {
+    border-radius: 4px;
+    min-height: 36px;
+  }
+  .row-bg {
+    padding: 10px 0;
+    background-color: #f9fafc;
+  }
+</style>
 <body>
-
-<div class="container">
-	<div class="well">
-		<p><span class="text-primary"style><b>Zh_Song的Cydia源</b> </span> </p>
-		<a class="btn btn-sm btn-default" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://szhann.github.io/repo/">添加到Cydia/Zebra</a>
-    <!-- <a class="btn btn-sm btn-default" href="https://weibo.com/u/7321330374/">我的微博</a> -->
-    <!-- <a class="btn btn-sm btn-default" href="https://www.feng.com/user/6730221">我的威锋主题</a> -->
-	</div>
-</div>
-<div style="text-align:center">
-
+<div id="app">
+  <el-container>
+    <el-header>
+      <el-row :gutter="20">
+  <el-col :span="6"><div class="grid-content bg-purple"></div></el-col>
+  <el-col :span="6" :offset="6"><div class="grid-content bg-purple"></div></el-col>
+</el-row>
+<el-row :gutter="20">
+  <el-col :span="6" :offset="6"><div class="grid-content bg-purple"></div></el-col>
+  <el-col :span="6" :offset="6"><div class="grid-content bg-purple"></div></el-col>
+</el-row>
+<el-row :gutter="20">
+  <el-col :span="12" :offset="6"><div class="grid-content bg-purple"></div></el-col>
+</el-row>
+    </el-header>
+    <el-main>Main</el-main>
+  </el-container>
 </div>
 </body>
+  <!-- import Vue before Element -->
+  <script src="./public/js/vue.min.js"></script>
+  <!-- import JavaScript -->
+  <script src="./public/js/element-ui.js"></script>
+  <script>
+    new Vue({
+      el: '#app',
+      data() {
+        return { 
+            activeIndex: '1',
+            activeIndex2: '1',
+            visible: false
+            };
+
+          },
+       methods: {
+          handleSelect(key, keyPath) {
+        console.log(key, keyPath);
+        }
+      }
+    })
+  </script>
 </html>
