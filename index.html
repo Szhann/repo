@@ -4,75 +4,37 @@
   <meta charset="UTF-8">
   <!-- import CSS -->
   <link rel="stylesheet" href="./public/css/element-ui.css">
-</head>
-<style>
-  .el-row {
-    margin-bottom: 20px;
-    &:last-child {
-      margin-bottom: 0;
-    }
-  }
-  .el-col {
-    border-radius: 4px;
-  }
-  .bg-purple-dark {
-    background: #99a9bf;
-  }
-  .bg-purple {
-    background: #d3dce6;
-  }
-  .bg-purple-light {
-    background: #e5e9f2;
-  }
-  .grid-content {
-    border-radius: 4px;
-    min-height: 36px;
-  }
-  .row-bg {
-    padding: 10px 0;
-    background-color: #f9fafc;
-  }
-</style>
-<body>
-<div id="app">
-  <el-container>
-    <el-header>
-      <el-row :gutter="20">
-  <el-col :span="6"><div class="grid-content bg-purple"></div></el-col>
-  <el-col :span="6" :offset="6"><div class="grid-content bg-purple"></div></el-col>
-</el-row>
-<el-row :gutter="20">
-  <el-col :span="6" :offset="6"><div class="grid-content bg-purple"></div></el-col>
-  <el-col :span="6" :offset="6"><div class="grid-content bg-purple"></div></el-col>
-</el-row>
-<el-row :gutter="20">
-  <el-col :span="12" :offset="6"><div class="grid-content bg-purple"></div></el-col>
-</el-row>
-    </el-header>
-    <el-main>Main</el-main>
-  </el-container>
-</div>
-</body>
   <!-- import Vue before Element -->
   <script src="./public/js/vue.min.js"></script>
   <!-- import JavaScript -->
   <script src="./public/js/element-ui.js"></script>
+  <!-- 推荐：根据需要加载，引入基础框架 -->
+  <script src="./public/JParticles-2.0.1/jparticles.js"></script>
+  <!-- 引入粒子特效 -->
+  <script src="./public/JParticles-2.0.1/particle.js"></script>
+</head>
+<style>
+  html,body{
+    width:100%;
+    height:100%;
+  }
+  #zhs{
+    width:100%;
+    height:100%;
+  }
+</style>
+<body>
+  <div id="zhs"></div>
   <script>
-    new Vue({
-      el: '#app',
-      data() {
-        return { 
-            activeIndex: '1',
-            activeIndex2: '1',
-            visible: false
-            };
-
-          },
-       methods: {
-          handleSelect(key, keyPath) {
-        console.log(key, keyPath);
-        }
-      }
-    })
+    // 使用 new JParticles.特效名 创建特效
+    new JParticles.particle('#zhs',{
+        // range 等于 0，粒子之间不连线
+      range: 0,
+      num: 100,
+      maxR: 20,
+      minR: 10,
+      maxSpeed: 3
+    });
   </script>
+</body>
 </html>
