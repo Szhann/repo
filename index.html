@@ -22,15 +22,35 @@
     width:100%;
     height:100%;
   }
+  .text {
+    font-size: 14px;
+  }
+
+  .item {
+    padding: 18px 0;
+  }
+  .box-card {
+    width: 480px;
+    height: 480px;
+    background: #eeeeee
+  }
 </style>
 <body>
-  <div id="zhs"></div>
+  <el-row>
+    <el-col :span="24"><div id="zhs"></div></el-col>
+    <el-card class="box-card" shadow="always">
+      <div v-for="o in 4" :key="o" class="text item">
+        {{'列表内容 ' + o }}
+      </div>
+    </el-card>
+  </el-row>
+  
   <script>
     // 使用 new JParticles.特效名 创建特效
     new JParticles.particle('#zhs',{
         // range 等于 0，粒子之间不连线
       range: 0,
-      num: 100,
+      num: 80,
       maxR: 20,
       minR: 10,
       maxSpeed: 3
