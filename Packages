@@ -36,6 +36,27 @@ Name: 花风手写体85%(支持IOS12-15)
 Sileodepiction: https://szhann.github.io/repo/SileoDepiction/com.szh.huafengshouxie85/js.json
 Sponsor: Szhooo
 
+Package: com.szh.qqpurification
+Version: 1.7-6
+Architecture: iphoneos-arm
+Maintainer: Zhooo
+Installed-Size: 532
+Depends: mobilesubstrate, firmware (>= 9.0)
+Filename: debs/com.szh.qqpurification_1.7-6_iphoneos-arm.deb
+Size: 163936
+MD5sum: 5bd076ecb7c83a3d2a453716f1f555c4
+SHA1: f585d295641a52461b645ccc58797b1809a18d21
+SHA256: 2d26eaf9fd8bf889e3c8539457ca132691abefccffba3c7aed10e331a7f1cdd3
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=qqpurificationDp
+Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部
+Tag: purpose::extension
+Author: Netskao <netskao@gmail.com>
+Dev: netskao
+Name: QQ净化
+Sileodepiction: https://szhann.github.io/repo/SileoDepiction/com.szh.qqpurification/js.json
+Sponsor: Zhooo
+
 Package: com.szh.systemfont90x90
 Version: 1.0
 Architecture: iphoneos-arm
