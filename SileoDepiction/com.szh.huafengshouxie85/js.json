@@ -36,13 +36,6 @@
                     "useBottomMargin": false
                 },
                 {
-                    "class": "DepictionLabelView",
-                    "text": "本字体由 字由心雨 制作，属于付费字体请号,请勿随意转发,如需购买请关注 字由心雨 公众号",
-                    "usePadding":20,
-                    "fontWeight":"Bold",
-                    "alignment":1,
-                },
-                {
                     "class": "DepictionSeparatorView"
                 },
                 {
