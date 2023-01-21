@@ -25,6 +25,12 @@
                 },
                 {
                     "class": "DepictionSubheaderView",
+                    "title": "仅支持QQ8.4.1版本",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionSubheaderView",
                     "title": "本插件搬运Netskao,插件为自用",
                     "useBoldText": true,
                     "useBottomMargin": false
