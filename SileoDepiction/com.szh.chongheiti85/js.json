@@ -11,7 +11,15 @@
                 {
                     "class": "DepictionButtonView",
                     "text": "兼容iOS13.0 ~ 15.0",
+                    "action":"return()",                    
                     "tintColor": "#FF7799",
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                },
+                {
+                    "class": "DepictionSeparatorView"
                 },
                 {
                     "class": "DepictionHeaderView",
@@ -39,7 +47,7 @@
                     "screenshots": [
                         {
                             "accessibilityText": "Screenshot",
-                            "url": "https://szhann.github.io/repo/SileoDepiction/TopImage/DefaultScreenshot.png"
+                            "url": "https://szhann.github.io/repo/SileoDepiction/Images/DefaultScreenshot.png"
                         }
                     ]
                 },
