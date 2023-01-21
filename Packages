@@ -1,14 +1,33 @@
+Package: com.szh.chongheiti85
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Szhooo
+Depends: firmware (>= 13),mobilesubstrate
+Filename: debs/com.szh.chongheiti85_1.0_iphoneos-arm.deb
+Size: 55075474
+MD5sum: c7a3d4ec88143b483e7c9ab17806dd0f
+SHA1: 66ae4aa92c0287526ae35526e559090efb496a77
+SHA256: 40fb099f1203e70394b7374821a2f0adc52047c73bd82fd6142c0f8ce4658385
+Section: 优香自用字体
+Description: 公众号:犬神志
+A12: 1
+Author: 犬神志
+Icon: https://szhann.github.io/SileoDepiction/Images/YouXiangIcon.png
+Name: 重黑体85%(支持IOS13-15)
+Sileodepiction: https://szhann.github.io/repo/SileoDepiction/com.szh.chongheiti85/js.json
+Sponsor: Szhooo
+
 Package: com.szh.huafengshouxie85
 Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Szhooo
 Depends: firmware (>= 13),mobilesubstrate
 Filename: debs/com.szh.huafengshouxie85_1.0_iphoneos-arm.deb
-Size: 20105406
-MD5sum: 6df8061fa82e189ac26809051fa574a0
-SHA1: ae9292032b148a25049b2e4618566d57c6cc71a3
-SHA256: 346ac4bd7945af28fc2a22f2ccd1a0a0535b071793fc38494466810952617542
-Section: 字体
+Size: 20105878
+MD5sum: a7131dd9424f267f167008cd29d5d62a
+SHA1: 18680d842d62b2571f1d7fc71c0096be1ca082f3
+SHA256: 2b930e3713c5f32aa292dd699f1808e4a9445a98a058865e266678dc98e3a7d2
+Section: Szhooo自用字体
 Description: 花风手写小字体，本字体由 字由心雨 制作，属于付费字体，请勿随意转发，如需购买请关注 字由心雨 公众号
 A12: 1
 Author: 字由心雨
