@@ -43,11 +43,12 @@ Maintainer: Zhooo
 Installed-Size: 532
 Depends: mobilesubstrate, firmware (>= 9.0)
 Filename: debs/com.szh.qqpurification_1.7-6_iphoneos-arm.deb
-Size: 163232
-MD5sum: 52139b29ed623d8d3904de143f360ef8
-SHA1: 9087a3c7fb1c029e2f7a593cf118064b473c924e
-SHA256: e66db437a38eab6da8eb024e378b04bb878c27fbf4e4a68540cf5abbd0724b6f
+Size: 163276
+MD5sum: 56550a7615b9206d2b9e803c6f582999
+SHA1: 9cb8cf1ab0b0570679d578bbb899d2b1a5cee8f1
+SHA256: 2e9e4335f4eac074fc8ccb9d987c474f3ee2f0ea04214cc685aac6e194f30030
 Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=qqpurificationDp
 Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部
 Tag: purpose::extension
 Author: Netskao <netskao@gmail.com>
