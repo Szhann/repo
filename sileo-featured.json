@@ -1,0 +1,14 @@
+{
+ "class": "FeaturedBannersView",
+ "itemSize": "{263, 148}",
+ "itemCornerRadius": 10,
+ "banners": [
+  {
+   "url": "https://szhann.github.io/SileoDepiction/TopImage/Default.png",
+   "title": "花风手写体小字体85%",
+   "package": "com.szh.huafengshouxie85",
+   "hideShadow": false
+  },
+  {
+ ]
+}
