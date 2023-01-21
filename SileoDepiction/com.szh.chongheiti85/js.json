@@ -11,7 +11,7 @@
                 {
                     "class": "DepictionButtonView",
                     "text": "兼容iOS13.0 ~ 15.0",
-                    "action":"javascript:;",                  
+                    "action":"",                  
                     "tintColor": "#FF7799",
                 },
                 {
@@ -26,7 +26,7 @@
                 {
                     "class": "DepictionSubheaderView",
                     "title": "重黑体中英文85%，本字体由 犬神志 制作",
-                    "useBoldText": true,
+                    "useBoldText": false,
                     "useBottomMargin": false
                 },
                 {
