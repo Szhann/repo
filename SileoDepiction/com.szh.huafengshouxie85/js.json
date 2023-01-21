@@ -11,6 +11,7 @@
                 {
                     "class": "DepictionButtonView",
                     "text": "兼容iOS12.0 ~ 15.0",
+                    "action":"",
                     "tintColor": "#FF7799",
                 },
                                 {
@@ -24,7 +25,13 @@
                 },
                 {
                     "class": "DepictionSubheaderView",
-                    "title": "花风手写小字体，本字体由 字由心雨 制作，属于付费字体，</br>请勿随意转发，如需购买请关注 字由心雨 公众号",
+                    "title": "花风手写小字体，本字体由 字由心雨 制作，属于付费字体请勿随意转发，如需购买请关注 字由心雨 公众号",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "请勿随意转发，如需购买请关注 字由心雨 公众号",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
