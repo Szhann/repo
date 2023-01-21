@@ -9,8 +9,8 @@
             "tabname": "描述",
             "views": [
                 {
-                    "class": "DepictionSubheaderView",
-                    "title": "重黑体85%",
+                    "class": "DepictionHeaderView",
+                    "title": "重黑体中英文85%",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
@@ -19,6 +19,10 @@
                     "title": "重黑体中英文85%，本字体由 犬神志 制作",
                     "useBoldText": true,
                     "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
                 },
                 {
                     "class": "DepictionScreenshotsView",
