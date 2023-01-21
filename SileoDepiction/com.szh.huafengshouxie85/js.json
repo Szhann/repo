@@ -11,7 +11,7 @@
                 {
                     "class": "DepictionButtonView",
                     "text": "兼容iOS12.0 ~ 15.0",
-                    "action":"",
+                    "action":"javascript:;",
                     "tintColor": "#FF7799",
                 },
                                 {
