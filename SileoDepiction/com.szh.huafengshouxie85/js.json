@@ -9,22 +9,23 @@
             "tabname": "描述",
             "views": [
                 {
-                    "class": "DepictionSubheaderView",
+                    "class": "DepictionHeaderView",
                     "title": "花风手写体小字体85%",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
                 {
                     "class": "DepictionSubheaderView",
-                    "title": "花风手写小字体，本字体由 字由心雨 制作，属于付费字体",
+                    "title": "花风手写小字体，本字体由 字由心雨 制作，属于付费字体，请勿随意转发，如需购买请关注 字由心雨 公众号",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
-		                {
-                    "class": "DepictionSubheaderView",
-                    "title": "请勿随意转发，如需购买请关注 字由心雨 公众号",
-                    "useBoldText": true,
-                    "useBottomMargin": false
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                },
+                {
+                    "class": "DepictionSeparatorView"
                 },
                 {
                     "class": "DepictionScreenshotsView",
@@ -60,8 +61,8 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "Szh",
-                    "title": "作者"
+                    "text": "字由心雨",
+                    "title": "字体作者"
                 },
                 {
                     "class": "DepictionTableTextView",
@@ -71,12 +72,12 @@
                 {
                     "class": "DepictionTableTextView",
                     "text": "12.0 - 15.0",
-                    "title": "支持系统范围"
+                    "title": "支持范围"
                 },
                 {
                     "class": "DepictionTableTextView",
                     "text": "2023 年 01 月 21 日",
-                    "title": "最后更新日期"
+                    "title": "更新日期"
                 },
                 {
                     "class": "DepictionSpacerView",
