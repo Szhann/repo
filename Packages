@@ -4,10 +4,10 @@ Architecture: iphoneos-arm
 Maintainer: Szhooo
 Depends: firmware (>= 13),mobilesubstrate
 Filename: debs/com.szh.chongheiti85_1.0_iphoneos-arm.deb
-Size: 55075460
-MD5sum: c58eab67a4aa0a5c769cf97d494b6c52
-SHA1: 7900fb600c6f191fc9713926c3b8eb8ec9c074bd
-SHA256: d90d814a21a0294710a621ae81395d0e4749b101daf7df40120ebefee64a210f
+Size: 55074896
+MD5sum: ac481691c3a40de3535d18561cd535cd
+SHA1: 78fca836aeb59daf75d3f3f85a82daa1d3d8dadd
+SHA256: 6b1229bb2f5374adde13bd869a506aad98aba953e410dcdcbb1888446a46e164
 Section: 字体
 Description: 公众号:犬神志
 A12: 1
@@ -23,12 +23,12 @@ Architecture: iphoneos-arm
 Maintainer: Szhooo
 Depends: firmware (>= 13),mobilesubstrate
 Filename: debs/com.szh.huafengshouxie85_1.0_iphoneos-arm.deb
-Size: 20105520
-MD5sum: 1bb03c733c626ba2ad1b764d5167bca7
-SHA1: 561002514e4e6f2233e0f41db33cfc23056aa42d
-SHA256: 53df3d3624d4130f1eed18e0b3860a1dfdc87eedf76447ca44f5bd02abf14aaf
+Size: 20105114
+MD5sum: 4affa39d08df08c5f154bf120317e7eb
+SHA1: d085105167e003d4c85bb9599dd596b34253a38d
+SHA256: 6b6a2348c23dadffec211ffb7aba912cf8dddf2f4a4b2a139565f8d567fa478f
 Section: 字体
-Description: 花风手写小字体，本字体由 字由心雨 制作，属于付费字体，请勿随意转发，如需购买请关注 字由心雨 公众号
+Description: 公众号:字由心雨
 A12: 1
 Author: 字由心雨
 Icon: https://szhann.github.io/repo/SileoDepiction/Images/SzhFontIcon.png
@@ -42,12 +42,12 @@ Architecture: iphoneos-arm
 Maintainer: Szhooo
 Depends: firmware (>= 13),mobilesubstrate
 Filename: debs/com.szh.systemfont90x90_1.0_iphoneos-arm.deb
-Size: 45378100
-MD5sum: fe8db94f75bf2976b519c30ebf41b25b
-SHA1: a7d3a9a56fb98bf606973c254d807e3717766739
-SHA256: 422883012ab7ef782c2d462dc974217123012eeb0c45e057e6884e5b8a093c07
+Size: 45378122
+MD5sum: f00dec81a4c89b35eb14bcb170cf8aea
+SHA1: 1db9d16aa7b0493fa3edf9449818b95ece6a3cb2
+SHA256: e76d6cc64ddca1d5bfd904b0eedc9a8af3d0638af9d1e60a29ae85dbdffd4876
 Section: 字体
-Description: IOS14原生字体90%
+Description: 公众号:字由心雨
 A12: 1
 Author: 字由心雨
 Icon: https://szhann.github.io/repo/SileoDepiction/Images/SzhFontIcon.png

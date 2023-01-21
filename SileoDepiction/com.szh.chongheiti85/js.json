@@ -10,8 +10,7 @@
             "views": [
                 {
                     "class": "DepictionButtonView",
-                    "text": "兼容iOS13.0 ~ 15.0",
-                    "action":"javascript:;",                    
+                    "text": "兼容iOS13.0 ~ 15.0",                    
                     "tintColor": "#FF7799",
                 },
                 {
