@@ -1,6 +1,6 @@
 {
     "class": "DepictionTabView",
-    "headerImage": "https://szhann.github.io/SileoDepiction/TopImage/Default.png",
+    "headerImage": "https://szhann.github.io/repo/SileoDepiction/TopImage/Default.png",
     "tintColor": "#FF4455",
     "minVersion": "0.3",
     "tabs": [
