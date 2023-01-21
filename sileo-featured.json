@@ -1,0 +1,25 @@
+{
+ "class": "FeaturedBannersView",
+ "itemSize": "{263, 148}",
+ "itemCornerRadius": 10,
+ "banners": [
+  {
+   "url": "https://szhann.github.io/repo/SileoDepiction/TopImage/Default.png",
+   "title": "花风手写体小字体85%",
+   "package": "com.szh.huafengshouxie85",
+   "hideShadow": false
+  },
+  {
+   "url": "https://szhann.github.io/repo/SileoDepiction/TopImage/Default.png",
+   "title": "重黑体85%",
+   "package": "com.szh.chongheiti85",
+   "hideShadow": false
+  },
+  {
+   "url": "https://szhann.github.io/repo/SileoDepiction/TopImage/Default.png",
+   "title": "iOS14原生字体90%",
+   "package": "com.szh.systemfont90x90",
+   "hideShadow": false
+  }
+ ]
+}
