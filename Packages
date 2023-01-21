@@ -4,15 +4,15 @@ Architecture: iphoneos-arm
 Maintainer: Szhooo
 Depends: firmware (>= 13),mobilesubstrate
 Filename: debs/com.szh.chongheiti85_1.0_iphoneos-arm.deb
-Size: 55075474
-MD5sum: c7a3d4ec88143b483e7c9ab17806dd0f
-SHA1: 66ae4aa92c0287526ae35526e559090efb496a77
-SHA256: 40fb099f1203e70394b7374821a2f0adc52047c73bd82fd6142c0f8ce4658385
+Size: 55075438
+MD5sum: c5486af0ecf564fc2128f9e677fb7eaf
+SHA1: 4e0cac941278482b13a5078b5ddde8289e15f498
+SHA256: 51c2cc332f49929b79202a7c923ed535ff6285bbb3b2915859e47c187a04bd03
 Section: 优香自用字体
 Description: 公众号:犬神志
 A12: 1
 Author: 犬神志
-Icon: https://szhann.github.io/SileoDepiction/Images/YouXiangIcon.png
+Icon: https://szhann.github.io/repo/SileoDepiction/Images/YouXiangIcon.png
 Name: 重黑体85%(支持IOS13-15)
 Sileodepiction: https://szhann.github.io/repo/SileoDepiction/com.szh.chongheiti85/js.json
 Sponsor: Szhooo
