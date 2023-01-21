@@ -25,7 +25,7 @@
                 },
                 {
                     "class": "DepictionSubheaderView",
-                    "title": "本字体由 字由心雨 制作，属于付费字体请勿随意转发，如需购买请关注 字由心雨 公众号",
+                    "title": "本字体由 字由心雨 制作，属于付费字体请号",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
@@ -34,6 +34,12 @@
                     "title": "请勿随意转发，如需购买请关注 字由心雨 公众号",
                     "useBoldText": true,
                     "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionLabelView",
+                    "text": "本字体由 字由心雨 制作，属于付费字体请号,请勿随意转发，如需购买请关注 字由心雨 公众号",
+                    "fontWeight":"Bold",
+                    "alignment":1,
                 },
                 {
                     "class": "DepictionSeparatorView"
