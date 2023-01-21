@@ -10,19 +10,13 @@
             "views": [
                 {
                     "class": "DepictionSubheaderView",
-                    "title": "花风手写体小字体85%",
+                    "title": "重黑体85%",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
                 {
                     "class": "DepictionSubheaderView",
-                    "title": "花风手写小字体，本字体由 字由心雨 制作，属于付费字体",
-                    "useBoldText": true,
-                    "useBottomMargin": false
-                },
-		                {
-                    "class": "DepictionSubheaderView",
-                    "title": "请勿随意转发，如需购买请关注 字由心雨 公众号",
+                    "title": "重黑体中英文85%，本字体由 犬神志 制作",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
@@ -33,7 +27,7 @@
                     "screenshots": [
                         {
                             "accessibilityText": "Screenshot",
-                            "url": "https://szhann.github.io/SileoDepiction/com.szh.huafengshouxie85/Screenshot.png"
+                            "url": 1
                         }
                     ]
                 },
@@ -60,7 +54,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "Szh",
+                    "text": "犬神志",
                     "title": "作者"
                 },
                 {
@@ -70,7 +64,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "12.0 - 15.0",
+                    "text": "13.0 - 15.0",
                     "title": "支持系统范围"
                 },
                 {
