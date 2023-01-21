@@ -25,14 +25,14 @@
                 },
                 {
                     "class": "DepictionSubheaderView",
-                    "title": "花风手写小字体，本字体由 字由心雨 制作，属于付费字体请勿随意转发，如需购买请关注 字由心雨 公众号",
-                    "useBoldText": false,
+                    "title": "本字体由 字由心雨 制作，属于付费字体请勿随意转发，如需购买请关注 字由心雨 公众号",
+                    "useBoldText": true,
                     "useBottomMargin": false
                 },
                 {
                     "class": "DepictionSubheaderView",
                     "title": "请勿随意转发，如需购买请关注 字由心雨 公众号",
-                    "useBoldText": false,
+                    "useBoldText": true,
                     "useBottomMargin": false
                 },
                 {
