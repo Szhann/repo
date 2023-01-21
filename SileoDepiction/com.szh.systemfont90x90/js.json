@@ -1,6 +1,6 @@
 {
     "class": "DepictionTabView",
-    "headerImage": "https://szhann.github.io/SileoDepiction/TopImage/Default.png",
+    "headerImage": "https://szhann.github.io/repo/SileoDepiction/TopImage/Default.png",
     "tintColor": "#FF4455",
     "minVersion": "0.3",
     "tabs": [
@@ -10,18 +10,18 @@
             "views": [
                 {
                     "class": "DepictionButtonView",
-                    "text": "兼容iOS12.0 ~ 15.0",
+                    "text": "兼容iOS13.0 ~ 15.0",
                     "tintColor": "#FF7799",
                 },
                 {
                     "class": "DepictionHeaderView",
-                    "title": "花风手写体小字体85%",
+                    "title": "IOS14原生字体90%",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
                 {
                     "class": "DepictionSubheaderView",
-                    "title": "花风手写小字体，本字体由 字由心雨 制作，属于付费字体，请勿随意转发，如需购买请关注 字由心雨 公众号",
+                    "title": "IOS14原生字体90%，本字体由 字由心雨 制作",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
@@ -76,7 +76,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "12.0 - 15.0",
+                    "text": "13.0 - 15.0",
                     "title": "支持范围"
                 },
                 {
