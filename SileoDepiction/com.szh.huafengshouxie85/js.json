@@ -36,10 +36,6 @@
                     "useBottomMargin": false
                 },
                 {
-                    "class": "DepictionMarkdownView",
-                    "markdown": "本字体由 字由心雨 制作，属于付费字体,请勿随意转发，</br>如需购买请关注 字由心雨 公众号",
-                },
-                {
                     "class": "DepictionSeparatorView"
                 },
                 {
