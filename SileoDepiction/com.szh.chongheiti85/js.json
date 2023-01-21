@@ -11,12 +11,8 @@
                 {
                     "class": "DepictionButtonView",
                     "text": "兼容iOS13.0 ~ 15.0",
-                    "action":"return()",                    
+                    "action":"javascript:;",                    
                     "tintColor": "#FF7799",
-                },
-                {
-                    "class": "DepictionSpacerView",
-                    "spacing": 16
                 },
                 {
                     "class": "DepictionSeparatorView"
