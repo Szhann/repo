@@ -24,12 +24,12 @@
                 {
                     "class": "DepictionMarkdownView",
                     "markdown": "# QQ净化\n\n",
-                    "useSpacing": false,
+                    "useSpacing": true,
                 },
                 {
                     "class": "DepictionMarkdownView",
                     "markdown": "### 仅支持QQ8.4.1版本，本插件搬运Netskao,插件为自用，为了不让Sileo提示更新，重新打包\n\n",
-                    "useSpacing": false,
+                    "useSpacing": true,
                 },
                 {
                     "class": "DepictionSpacerView",
