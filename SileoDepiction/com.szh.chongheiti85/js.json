@@ -18,14 +18,18 @@
                     "class": "DepictionSeparatorView"
                 },
                 {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                },
+                {
                     "class": "DepictionMarkdownView",
                     "markdown": "# 重黑体中英文85%\n\n",
-                    "useSpacing": false,
+                    "useSpacing": true,
                 },
                 {
                     "class": "DepictionMarkdownView",
                     "markdown": "### 字体转载自公众号:犬神志\n\n",
-                    "useSpacing": false,
+                    "useSpacing": true,
                 },
                 {
                     "class": "DepictionSpacerView",

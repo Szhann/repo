@@ -18,6 +18,10 @@
                     "class": "DepictionSeparatorView"
                 },
                 {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                },
+                {
                     "class": "DepictionMarkdownView",
                     "markdown": "# QQ净化\n\n",
                     "useSpacing": false,
