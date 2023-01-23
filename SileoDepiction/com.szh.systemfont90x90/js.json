@@ -36,6 +36,10 @@
                     "useSpacing": false,
                 },
                 {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                },
+                {
                     "class": "DepictionSeparatorView"
                 },
                 {
