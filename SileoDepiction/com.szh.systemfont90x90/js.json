@@ -10,7 +10,7 @@
             "views": [
                 {
                     "class": "DepictionButtonView",
-                    "text": "兼容iOS13.0 ~ 15.0",
+                    "text": "兼容iOS13.0 ~ 15.0(iOS15为无根替换)",
                     "action":"",
                     "tintColor": "#FF7799",
                 },
