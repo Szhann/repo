@@ -24,6 +24,16 @@
                     "useBottomMargin": false
                 },
                 {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "# 团圆体 简版85%\n\n",
+                    "useSpacing": "true",
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "# 本字体由 犬神志 制作\n\n",
+                    "useSpacing": "true",
+                },
+                {
                     "class": "DepictionSubheaderView",
                     "title": "本字体由 犬神志 制作",
                     "useBoldText": true,
