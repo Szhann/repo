@@ -10,7 +10,7 @@
             "views": [
                 {
                     "class": "DepictionButtonView",
-                    "text": "兼容iOS12.0 ~ 15.0",
+                    "text": "兼容iOS12.0 ~ 15.0(iOS15为无根替换)",
                     "action":"",
                     "tintColor": "#FF7799",
                 },
@@ -45,7 +45,23 @@
                     "screenshots": [
                         {
                             "accessibilityText": "Screenshot",
-                            "url": "https://szhann.github.io/repo/SileoDepiction/Images/DefaultScreenshot.png"
+                            "url": "https://szhann.github.io/repo/SileoDepiction/com.szh.huafengshouxie85/Screenshot_0.png"
+                        },
+                        {
+                            "accessibilityText": "Screenshot",
+                            "url": "https://szhann.github.io/repo/SileoDepiction/com.szh.huafengshouxie85/Screenshot_1.png"
+                        },
+                        {
+                            "accessibilityText": "Screenshot",
+                            "url": "https://szhann.github.io/repo/SileoDepiction/com.szh.huafengshouxie85/Screenshot_2.png"
+                        },
+                        {
+                            "accessibilityText": "Screenshot",
+                            "url": "https://szhann.github.io/repo/SileoDepiction/com.szh.huafengshouxie85/Screenshot_3.png"
+                        },
+                        {
+                            "accessibilityText": "Screenshot",
+                            "url": "https://szhann.github.io/repo/SileoDepiction/com.szh.huafengshouxie85/Screenshot_4.png"
                         }
                     ]
                 },
