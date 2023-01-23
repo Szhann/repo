@@ -18,17 +18,29 @@
                     "class": "DepictionSeparatorView"
                 },
                 {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                },
+                {
                     "class": "DepictionMarkdownView",
                     "markdown": "# IOS14原生字体90%\n\n",
-                    "useSpacing": true,
+                    "useSpacing": false,
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
                 },
                 {
                     "class": "DepictionMarkdownView",
                     "markdown": "### 字体转载自公众号:字由心雨\n\n",
-                    "useSpacing": true,
+                    "useSpacing": false,
                 },
                 {
                     "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
                 },
                 {
                     "class": "DepictionHeaderView",

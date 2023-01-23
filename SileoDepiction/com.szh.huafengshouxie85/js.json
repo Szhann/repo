@@ -18,17 +18,33 @@
                     "class": "DepictionSeparatorView"
                 },
                 {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                },
+                {
                     "class": "DepictionMarkdownView",
                     "markdown": "# 花风手写体小字体85%\n\n",
-                    "useSpacing": true,
+                    "useSpacing": false,
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
                 },
                 {
                     "class": "DepictionMarkdownView",
                     "markdown": "### 本字体由 字由心雨 制作，属于付费字体,如需购买请关注 字由心雨 公众号\n\n",
-                    "useSpacing": true,
+                    "useSpacing": false,
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
                 },
                 {
                     "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
                 },
                 {
                     "class": "DepictionHeaderView",
