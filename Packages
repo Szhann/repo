@@ -55,3 +55,22 @@ Name: IOS14原生字体90%(支持IOS14-15)
 Sileodepiction: https://szhann.github.io/repo/SileoDepiction/com.szh.systemfont90x90/js.json
 Sponsor: Szhooo
 
+Package: com.szh.zhengheiti
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Szhooo
+Depends: firmware (>= 13),mobilesubstrate
+Filename: debs/com.szh.zhengheiti_1.0_iphoneos-arm.deb
+Size: 53239036
+MD5sum: 7a2d1b081fe6d98831ffddd3f7f96515
+SHA1: 9781190a25176cd75a017d7b7ba68d107b9e95c9
+SHA256: 3ee4b4e7539fb7dd85aac90f3c9bbb77a0c520c69283951183525d94a99a33ce
+Section: 字体
+Description: 公众号:字由心雨
+A12: 1
+Author: 字由心雨
+Icon: https://szhann.github.io/repo/SileoDepiction/Images/YouXiangIcon.png
+Name: 方正正黑体(支持IOS11-15)
+Sileodepiction: https://szhann.github.io/repo/SileoDepiction/com.szh.zhengheiti/js.json
+Sponsor: Szhooo
+
