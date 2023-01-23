@@ -20,11 +20,11 @@
                 {
                     "class": "DepictionMarkdownView",
                     "markdown": "# 重黑体中英文85%\n\n",
-                    "useSpacing": true,
+                    "useSpacing": false,
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "## 字体转载自公众号:犬神志\n\n",
+                    "markdown": "### 字体转载自公众号:犬神志\n\n",
                     "useSpacing": false,
                 },
                 {

@@ -20,11 +20,11 @@
                 {
                     "class": "DepictionMarkdownView",
                     "markdown": "# 方正正黑体\n\n",
-                    "useSpacing": true,
+                    "useSpacing": false,
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "## 字体转载自公众号:字由心雨\n\n",
+                    "markdown": "### 字体转载自公众号:字由心雨\n\n",
                     "useSpacing": false,
                 },
                 {
