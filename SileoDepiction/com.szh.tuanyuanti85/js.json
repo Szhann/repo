@@ -26,12 +26,12 @@
                 {
                     "class": "DepictionMarkdownView",
                     "markdown": "# 团圆体 简版85%\n\n",
-                    "useSpacing": "true",
+                    "useSpacing": true,
                 },
                 {
                     "class": "DepictionMarkdownView",
                     "markdown": "# 本字体由 犬神志 制作\n\n",
-                    "useSpacing": "true",
+                    "useSpacing": true,
                 },
                 {
                     "class": "DepictionSubheaderView",
@@ -45,6 +45,12 @@
                 },
                 {
                     "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "屏幕截图",
+                    "useBoldText": true,
+                    "useBottomMargin": false
                 },
                 {
                     "class": "DepictionScreenshotsView",
