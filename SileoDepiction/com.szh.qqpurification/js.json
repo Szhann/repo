@@ -10,7 +10,7 @@
             "views": [
                 {
                     "class": "DepictionButtonView",
-                    "text": "兼容iOS9.0 ~ 15.0",
+                    "text": "自用插件，请勿下载",
                     "action":"",
                     "tintColor": "#FF7799",
                 },
@@ -18,28 +18,14 @@
                     "class": "DepictionSeparatorView"
                 },
                 {
-                    "class": "DepictionHeaderView",
-                    "title": "QQ净化",
-                    "useBoldText": true,
-                    "useBottomMargin": false
+                    "class": "DepictionMarkdownView",
+                    "markdown": "# QQ净化\n\n",
+                    "useSpacing": true,
                 },
                 {
-                    "class": "DepictionSubheaderView",
-                    "title": "仅支持QQ8.4.1版本",
-                    "useBoldText": true,
-                    "useBottomMargin": false
-                },
-                {
-                    "class": "DepictionSubheaderView",
-                    "title": "本插件搬运Netskao,插件为自用",
-                    "useBoldText": true,
-                    "useBottomMargin": false
-                },
-                {
-                    "class": "DepictionSubheaderView",
-                    "title": "为了不让Sileo提示更新，重新打包",
-                    "useBoldText": true,
-                    "useBottomMargin": false
+                    "class": "DepictionMarkdownView",
+                    "markdown": "## 仅支持QQ8.4.1版本，本插件搬运Netskao,插件为自用，为了不让Sileo提示更新，重新打包\n\n",
+                    "useSpacing": false,
                 },
                 {
                     "class": "DepictionSpacerView",
@@ -47,6 +33,12 @@
                 },
                 {
                     "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "屏幕截图",
+                    "useBoldText": true,
+                    "useBottomMargin": false
                 },
                 {
                     "class": "DepictionScreenshotsView",
@@ -92,7 +84,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "9.0 - 15.0",
+                    "text": "~~~~~",
                     "title": "支持范围"
                 },
                 {
@@ -111,15 +103,8 @@
             "tabname": "更新日志",
             "views": [
                 {
-                    "class": "DepictionSubheaderView",
-                    "title": "1.0",
-                    "useBoldText": true,
-                    "useBottomMargin": false
-                },
-                {
                     "class": "DepictionMarkdownView",
-                    "markdown": "无",
-                    "useRawFormat": true
+                    "markdown": "#### 版本 1.0\n\n初始化安装."
                 }
             ]
         }

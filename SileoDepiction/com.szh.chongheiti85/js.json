@@ -18,16 +18,14 @@
                     "class": "DepictionSeparatorView"
                 },
                 {
-                    "class": "DepictionHeaderView",
-                    "title": "重黑体中英文85%",
-                    "useBoldText": true,
-                    "useBottomMargin": false
+                    "class": "DepictionMarkdownView",
+                    "markdown": "# 重黑体中英文85%\n\n",
+                    "useSpacing": true,
                 },
                 {
-                    "class": "DepictionSubheaderView",
-                    "title": "本字体由 犬神志 制作",
-                    "useBoldText": true,
-                    "useBottomMargin": false
+                    "class": "DepictionMarkdownView",
+                    "markdown": "## 字体转载自公众号:犬神志\n\n",
+                    "useSpacing": false,
                 },
                 {
                     "class": "DepictionSpacerView",
@@ -35,6 +33,12 @@
                 },
                 {
                     "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "屏幕截图",
+                    "useBoldText": true,
+                    "useBottomMargin": false
                 },
                 {
                     "class": "DepictionScreenshotsView",
@@ -99,15 +103,8 @@
             "tabname": "更新日志",
             "views": [
                 {
-                    "class": "DepictionSubheaderView",
-                    "title": "1.0",
-                    "useBoldText": true,
-                    "useBottomMargin": false
-                },
-                {
                     "class": "DepictionMarkdownView",
-                    "markdown": "无",
-                    "useRawFormat": true
+                    "markdown": "#### 版本 1.0\n\n初始化字体安装."
                 }
             ]
         }
