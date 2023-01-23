@@ -1,0 +1,123 @@
+{
+    "class": "DepictionTabView",
+    "headerImage": "https://szhann.github.io/repo/SileoDepiction/TopImage/Default.png",
+    "tintColor": "#FF4455",
+    "minVersion": "0.3",
+    "tabs": [
+        {
+            "class": "DepictionStackView",
+            "tabname": "描述",
+            "views": [
+                {
+                    "class": "DepictionButtonView",
+                    "text": "兼容iOS12.0 ~ 15.0(iOS15为无根替换)",
+                    "action":"",                  
+                    "tintColor": "#FF7799",
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "团圆体 简版85%",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "本字体由 犬神志 制作",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionScreenshotsView",
+                    "itemCornerRadius": 6,
+                    "itemSize": "{160, 346.4533333333333}",
+                    "screenshots": [
+                        {
+                            "accessibilityText": "Screenshot",
+                            "url": "https://szhann.github.io/repo/SileoDepiction/com.szh.tuanyuanti85/Screenshot_0.png"
+                        },
+                        {
+                            "accessibilityText": "Screenshot",
+                            "url": "https://szhann.github.io/repo/SileoDepiction/com.szh.tuanyuanti85/Screenshot_1.png"
+                        },
+                        {
+                            "accessibilityText": "Screenshot",
+                            "url": "https://szhann.github.io/repo/SileoDepiction/com.szh.tuanyuanti85/Screenshot_2.png"
+                        }
+                    ]
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                },
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "详情",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "犬神志",
+                    "title": "字体作者"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "1.0",
+                    "title": "最新版本"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "13.0 - 15.0",
+                    "title": "支持范围"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "2023 年 01 月 21 日",
+                    "title": "更新日期"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                }
+            ]
+        },
+        {
+            "class": "DepictionStackView",
+            "tabname": "更新日志",
+            "views": [
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "1.0",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "无",
+                    "useRawFormat": true
+                }
+            ]
+        }
+    ],
+}

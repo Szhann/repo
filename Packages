@@ -55,6 +55,25 @@ Name: IOS14原生字体90%(支持IOS14-15)
 Sileodepiction: https://szhann.github.io/repo/SileoDepiction/com.szh.systemfont90x90/js.json
 Sponsor: Szhooo
 
+Package: com.szh.tuanyuanti85
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Szhooo
+Depends: firmware (>= 13),mobilesubstrate
+Filename: debs/com.szh.tuanyuanti85_1.0_iphoneos-arm.deb
+Size: 20059732
+MD5sum: 89b88adec4d447e52ea5edc61732aca1
+SHA1: 913a29feeae2ec1232a1d4afb5c08be10533b738
+SHA256: 790cad59c50dfb6d554cf069a1b15ca2f34d3bc83ac1f8460e2a782da8af5a94
+Section: 字体
+Description: 公众号:犬神志
+A12: 1
+Author: 犬神志
+Icon: https://szhann.github.io/repo/SileoDepiction/Images/SzhFontIcon.png
+Name: 团圆体 简版85%(支持IOS12-15)
+Sileodepiction: https://szhann.github.io/repo/SileoDepiction/com.szh.tuanyuanti85/js.json
+Sponsor: Szhooo
+
 Package: com.szh.zhengheiti
 Version: 1.0
 Architecture: iphoneos-arm
