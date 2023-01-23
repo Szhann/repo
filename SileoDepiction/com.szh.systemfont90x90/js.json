@@ -49,6 +49,10 @@
                     "useBottomMargin": false
                 },
                 {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                },
+                {
                     "class": "DepictionScreenshotsView",
                     "itemCornerRadius": 6,
                     "itemSize": "{160, 346.4533333333333}",
