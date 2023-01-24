@@ -17,6 +17,25 @@ Name: 重黑体85%(支持IOS13-15)
 Sileodepiction: https://szhann.github.io/repo/SileoDepiction/com.szh.chongheiti85/js.json
 Sponsor: Szhooo
 
+Package: com.szh.fenyuanyuyi85
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Szhooo
+Depends: firmware (>= 13),mobilesubstrate
+Filename: debs/com.szh.fenyuanyuyi85_1.0_iphoneos-arm.deb
+Size: 69562216
+MD5sum: 8f873752fb10f3af4b6c9eaeb32b0c2e
+SHA1: 10dc953b82d62d912f0a14c67b72e934d00e419a
+SHA256: 0d6ac064a153e7f35cd3d28e5d0723eb16f1a3e57226a31356fb8267dc3574ff
+Section: 字体
+Description: 公众号:拾陆字
+A12: 1
+Author: 犬神志
+Icon: https://szhann.github.io/repo/SileoDepiction/Images/SzhFontIcon.png
+Name: 粉圆羽逸85%(支持IOS12-15)
+Sileodepiction: https://szhann.github.io/repo/SileoDepiction/com.szh.fenyuanyuyi85/js.json
+Sponsor: Szhooo
+
 Package: com.szh.huafengshouxie85
 Version: 1.0
 Architecture: iphoneos-arm
