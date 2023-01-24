@@ -63,7 +63,19 @@
                     "screenshots": [
                         {
                             "accessibilityText": "Screenshot",
-                            "url": "https://szhann.github.io/repo/SileoDepiction/Images/DefaultScreenshot.png"
+                            "url": "https://szhann.github.io/repo/SileoDepiction/com.szh.chongheiti85/Screenshot_0.png"
+                        },
+                        {
+                            "accessibilityText": "Screenshot",
+                            "url": "https://szhann.github.io/repo/SileoDepiction/com.szh.chongheiti85/Screenshot_1.png"
+                        },
+                        {
+                            "accessibilityText": "Screenshot",
+                            "url": "https://szhann.github.io/repo/SileoDepiction/com.szh.chongheiti85/Screenshot_2.png"
+                        },
+                        {
+                            "accessibilityText": "Screenshot",
+                            "url": "https://szhann.github.io/repo/SileoDepiction/com.szh.chongheiti85/Screenshot_3.png"
                         }
                     ]
                 },
