@@ -1,6 +1,6 @@
 {
     "class": "DepictionTabView",
-    "headerImage": "https://szhann.github.io/SileoDepiction/HeaderImages/FontBanner.png",
+    "headerImage": "https://szhann.github.io/repo/SileoDepiction/HeaderImages/FontBanner.png",
     "tintColor": "#FF4455",
     "minVersion": "0.3",
     "tabs": [
