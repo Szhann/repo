@@ -1,21 +1,20 @@
-Package: com.ryannair05.cask3
-Version: 1.0.0
+Package: com.szh.cask3
+Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Ryan Nair
 Installed-Size: 812
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0)
-Replaces: com.ryannair05.cask2
-Filename: debs/com.ryannair05.cask3_1.0.0_iphoneos-arm.deb
-Size: 318872
-MD5sum: 986f139563f4bf17696b7e2ae01bc968
-SHA1: 95cc4adbf4919f77ac9123e7e09f52378e232dac
-SHA256: 58ef1e5cd2d58bb4e94fcd149924daa9739cce8249746530030d5e3ede291328
+Filename: debs/com.szh.cask3_1.0_iphoneos-arm.deb
+Size: 318840
+MD5sum: 9fd69bab387c77b2324318bf8c364080
+SHA1: c324b20a64403ae03b2604f8dfc89ab10bba9026
+SHA256: 87c74d3926bdf8e9c71f6d63c3190f2ac621858148241724bfa26847f215cc30
 Section: Tweaks
 Description: Animated table scrolling
 Author: Ryan Nair
-Icon: https://szhann.github.io/repo/SileoDepiction/com.ryannair05.cask3/Icon.png
+Icon: https://szhann.github.io/repo/SileoDepiction/com.szh.cask3/icon.png
 Name: Cask 3
-Sileodepiction: https://szhann.github.io/repo/SileoDepiction/com.ryannair05.cask3/js.json
+Sileodepiction: https://szhann.github.io/repo/SileoDepiction/com.szh.cask3/js.json
 Sponsor: Szhooo
 
 Package: com.szh.chongheiti85

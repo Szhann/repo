@@ -1,6 +1,6 @@
 {
     "class": "DepictionTabView",
-    "headerImage": "https://szhann.github.io/repo/SileoDepiction/com.ryannair05.cask3/banner.png",
+    "headerImage": "https://szhann.github.io/repo/SileoDepiction/com.szh.cask3/banner.png",
     "tintColor": "#FF4455",
     "minVersion": "0.3",
     "tabs": [
@@ -63,11 +63,11 @@
                     "screenshots": [
                         {
                             "accessibilityText": "Screenshot",
-                            "url": "https://szhann.github.io/repo/SileoDepiction/com.ryannair05.cask3/Screenshot_0.png"
+                            "url": "https://szhann.github.io/repo/SileoDepiction/com.szh.cask3/Screenshot_0.png"
                         }
                         {
                             "accessibilityText": "Screenshot",
-                            "url": "https://szhann.github.io/repo/SileoDepiction/com.ryannair05.cask3/Screenshot_1.png"
+                            "url": "https://szhann.github.io/repo/SileoDepiction/com.szh.cask3/Screenshot_1.png"
                         }
                     ]
                 },
