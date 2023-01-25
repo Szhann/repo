@@ -36,6 +36,25 @@ Name: 粉圆羽逸85%(支持IOS12-15)
 Sileodepiction: https://szhann.github.io/repo/SileoDepiction/com.szh.fenyuanyuyi85/js.json
 Sponsor: Szhooo
 
+Package: com.szh.fytwcrzyw901
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Szhooo
+Depends: firmware (>= 12),mobilesubstrate
+Filename: debs/com.szh.fytwcrzyw901_1.0_iphoneos-arm.deb
+Size: 78197472
+MD5sum: 228e55bdc28a949fdf94bff6d5aa1e53
+SHA1: 7db312516529ed9fad86a1cd5d42d48167e9f428
+SHA256: 80ff5a005fcede699d0459daccbd44688657bbf12d397c94874728e60921ff37
+Section: 字体
+Description: 公众号:苏兔
+A12: 1
+Author: 苏兔
+Icon: https://szhann.github.io/repo/SileoDepiction/Images/SzhFontIcon.png
+Name: 粉圆TW+Compact Rounded中英文90%
+Sileodepiction: https://szhann.github.io/repo/SileoDepiction/com.szh.fytwcrzyw901/js.json
+Sponsor: Szhooo
+
 Package: com.szh.huafengshouxie85
 Version: 1.0
 Architecture: iphoneos-arm
