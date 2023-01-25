@@ -4,9 +4,21 @@
     "itemCornerRadius": 10,
     "banners": [
         {
+            "url": "https://szhann.github.io/repo/SileoDepiction/com.szh.cask3/banner.png",
+            "title": "Cask 3",
+            "package": "com.szh.cask3",
+            "hideShadow": false
+        },
+        {
             "url": "https://szhann.github.io/repo/SileoDepiction/HeaderImages/FontBanner.png",
             "title": "重黑体85%",
             "package": "com.szh.chongheiti85",
+            "hideShadow": false
+        },
+        {
+            "url": "https://szhann.github.io/repo/SileoDepiction/HeaderImages/Default.png",
+            "title": "QQ净化",
+            "package": "com.szh.qqpurification",
             "hideShadow": false
         },
         {
