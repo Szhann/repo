@@ -1,3 +1,23 @@
+Package: com.ryannair05.cask3
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: Ryan Nair
+Installed-Size: 812
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0)
+Replaces: com.ryannair05.cask2
+Filename: debs/com.ryannair05.cask3_1.0.0_iphoneos-arm.deb
+Size: 318872
+MD5sum: 986f139563f4bf17696b7e2ae01bc968
+SHA1: 95cc4adbf4919f77ac9123e7e09f52378e232dac
+SHA256: 58ef1e5cd2d58bb4e94fcd149924daa9739cce8249746530030d5e3ede291328
+Section: Tweaks
+Description: Animated table scrolling
+Author: Ryan Nair
+Icon: https://szhann.github.io/repo/SileoDepiction/com.ryannair05.cask3/Icon.png
+Name: Cask 3
+Sileodepiction: https://szhann.github.io/repo/SileoDepiction/com.ryannair05.cask3/js.json
+Sponsor: Szhooo
+
 Package: com.szh.chongheiti85
 Version: 1.0
 Architecture: iphoneos-arm
