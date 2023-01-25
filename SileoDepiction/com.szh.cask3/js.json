@@ -32,7 +32,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### Cask 3 brings animated table scrolling to all tables to iOS 14 and up. For lower iOS firmwares, try the original Cask by Ryan Petrich or Cask 2.\n\n\n\nCask 3 is open source and can be found here: https://github.com/ryannair05/Cask-3",
+                    "markdown": "### Cask 3 brings animated table scrolling to all tables to iOS 14 and up. For lower iOS firmwares, try the original Cask by Ryan Petrich or Cask 2.\n\n\n\nCask 3 is open source and can be found here: <https://github.com/ryannair05/Cask-3>",
                     "useSpacing": false,
                 },
                 {
