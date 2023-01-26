@@ -36,6 +36,24 @@ Name: 重黑体85%(支持IOS13-15)
 Sileodepiction: https://szhann.github.io/repo/SileoDepiction/com.szh.chongheiti85/js.json
 Sponsor: Szhooo
 
+Package: com.szh.endicon
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Szhooo
+Filename: debs/com.szh.endicon_1.0_iphoneos-arm.deb
+Size: 3156272
+MD5sum: e4fc15f8e293884f168d579d3871f410
+SHA1: 44e761dd0649e4e27c0e0ee12ed9ffb84a1fb060
+SHA256: 2cf221e529ecc64808f0df174504887011152d226ba603a8227967dd67c62e52
+Section: 主题(Icon)
+Description: End 小清新  自用主题
+A12: 1
+Author: Szh
+Icon: https://szhann.github.io/repo/SileoDepiction/Images/Themes.png
+Name: End 小清新
+Sileodepiction: https://szhann.github.io/repo/SileoDepiction/com.szh.endicon/js.json
+Sponsor: Szhooo
+
 Package: com.szh.fenyuanyuyi85
 Version: 1.0
 Architecture: iphoneos-arm
