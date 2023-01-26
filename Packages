@@ -41,10 +41,10 @@ Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Szhooo
 Filename: debs/com.szh.endicon_1.0_iphoneos-arm.deb
-Size: 3156272
-MD5sum: e4fc15f8e293884f168d579d3871f410
-SHA1: 44e761dd0649e4e27c0e0ee12ed9ffb84a1fb060
-SHA256: 2cf221e529ecc64808f0df174504887011152d226ba603a8227967dd67c62e52
+Size: 3156348
+MD5sum: 548816a04c92d27385f5cc9a2f686b0e
+SHA1: ca3b4bcb8a1f73dfb41c3105139ada24fc0a780d
+SHA256: 872fee83663b52669319784bbd2909e65b6e183dcf72984b46a942894d66d78a
 Section: 主题(Icon)
 Description: End 小清新  自用主题
 A12: 1
