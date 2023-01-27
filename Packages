@@ -92,6 +92,25 @@ Name: 粉圆TW+Compact Rounded中英文90%
 Sileodepiction: https://szhann.github.io/repo/SileoDepiction/com.szh.fytwcrzyw901/js.json
 Sponsor: Szhooo
 
+Package: com.szh.fzjlsxtzyw100
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Szhooo
+Depends: firmware (>= 11),mobilesubstrate
+Filename: debs/com.szh.fzjlsxtzyw100_1.0_iphoneos-arm.deb
+Size: 29037232
+MD5sum: 8422c176d8146bb86a2862bb647a6e05
+SHA1: 0207a76c46f590fbcb9382f6978f0935e28af51b
+SHA256: 82de86147540d66cab8e2f8a5c00b90ff44ddb9897ad5ef1f5380c12a6144e40
+Section: 字体
+Description: 公众号:字由心雨
+A12: 1
+Author: 字由心雨
+Icon: https://szhann.github.io/repo/SileoDepiction/Images/YouXiangIcon.png
+Name: 方正静蕾手写体中英文100%
+Sileodepiction: https://szhann.github.io/repo/SileoDepiction/com.szh.fzjlsxtzyw100/js.json
+Sponsor: Szhooo
+
 Package: com.szh.huafengshouxie85
 Version: 1.0
 Architecture: iphoneos-arm
