@@ -131,6 +131,25 @@ Name: QQ净化
 Sileodepiction: https://szhann.github.io/repo/SileoDepiction/com.szh.qqpurification/js.json
 Sponsor: Zhooo
 
+Package: com.szh.shoushuweilai100
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Szhooo
+Depends: firmware (>= 13),mobilesubstrate
+Filename: debs/com.szh.shoushuweilai100_1.0_iphoneos-arm.deb
+Size: 27230500
+MD5sum: f8fae6b0e6e5749afad35d4d7e864599
+SHA1: 09b89d17fec27f7ff9f4b7ddece302f025602ce0
+SHA256: 3694d083f585edfbde02c900f84a430adf9965ab1a88474ab4c79c22ab0fee65
+Section: 字体
+Description: 公众号:犬神志
+A12: 1
+Author: 犬神志
+Icon: https://szhann.github.io/repo/SileoDepiction/Images/SzhFontIcon.png
+Name: 假·手书未来体100%
+Sileodepiction: https://szhann.github.io/repo/SileoDepiction/com.szh.shoushuweilai100/js.json
+Sponsor: Szhooo
+
 Package: com.szh.systemfont90x90
 Version: 1.0
 Architecture: iphoneos-arm
