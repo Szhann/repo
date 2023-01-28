@@ -111,6 +111,44 @@ Name: 方正静蕾手写体中英文100%
 Sileodepiction: https://szhann.github.io/repo/SileoDepiction/com.szh.fzjlsxtzyw100/js.json
 Sponsor: Szhooo
 
+Package: com.szh.gangbixingkai100
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Szhooo
+Depends: firmware (>= 13),mobilesubstrate
+Filename: debs/com.szh.gangbixingkai100_1.0_iphoneos-arm.deb
+Size: 59282136
+MD5sum: b3ac3cb476e870b1067923bf77e105a9
+SHA1: 8d5649cd743f86e498753eb505aeaa4261a36159
+SHA256: 6cc246f618d682ac57ecc5ba7f84ec1086327daf426a790cd0a1a7800b429369
+Section: 字体
+Description: 公众号:犬神志
+A12: 1
+Author: 犬神志
+Icon: https://szhann.github.io/repo/SileoDepiction/Images/SzhFontIcon.png
+Name: 钢笔行楷多字重100%
+Sileodepiction: https://szhann.github.io/repo/SileoDepiction/com.szh.gangbixingkai100/js.json
+Sponsor: Szhooo
+
+Package: com.szh.gangbixingkai85
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Szhooo
+Depends: firmware (>= 13),mobilesubstrate
+Filename: debs/com.szh.gangbixingkai85_1.0_iphoneos-arm.deb
+Size: 59305128
+MD5sum: e765b127d8580a680a33a50b19a4e855
+SHA1: f7d6553c4ea6f4cfeb3a8ffb2a6ecc6956326a57
+SHA256: 3f18d660131a1c745362f5bd071d840ba9321e6daf10814e139d176f29c23fa7
+Section: 字体
+Description: 公众号:犬神志
+A12: 1
+Author: 犬神志
+Icon: https://szhann.github.io/repo/SileoDepiction/Images/SzhFontIcon.png
+Name: 钢笔行楷多字重85%
+Sileodepiction: https://szhann.github.io/repo/SileoDepiction/com.szh.gangbixingkai85/js.json
+Sponsor: Szhooo
+
 Package: com.szh.huafengshouxie85
 Version: 1.0
 Architecture: iphoneos-arm
