@@ -169,6 +169,25 @@ Name: 花风手写体85%(支持IOS12-15)
 Sileodepiction: https://szhann.github.io/repo/SileoDepiction/com.szh.huafengshouxie85/js.json
 Sponsor: Szhooo
 
+Package: com.szh.huawenhei
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Szhooo
+Depends: firmware (>= 13),mobilesubstrate
+Filename: debs/com.szh.huawenhei_1.0_iphoneos-arm.deb
+Size: 75134608
+MD5sum: 875a91c3c1ecfd6497e74ca228458d38
+SHA1: 16705e9c7c717c7cef14ba31dd8cb9d95c73a80d
+SHA256: d1d3aba7ede5b098bbcc14709013bd58d084f3cfadec1b3cdfb65fb068040086
+Section: 字体
+Description: 公众号:字由心雨
+A12: 1
+Author: 字由心雨
+Icon: https://szhann.github.io/repo/SileoDepiction/Images/SzhFontIcon.png
+Name: 华文黑
+Sileodepiction: https://szhann.github.io/repo/SileoDepiction/com.szh.huawenhei/js.json
+Sponsor: Szhooo
+
 Package: com.szh.qqpurification
 Version: 1.7-6
 Architecture: iphoneos-arm
