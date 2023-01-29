@@ -1,9 +1,0 @@
-{
-   "name": "Zhooo",
-   "icon": "https://szhann.github.io/repo/CydiaIcon.png",
-   "description": "Zhooo Pay",
-   "authentication_banner": {
-      "message": "Zhooo 会员系统",
-      "button": "登录"
-   }
-}
