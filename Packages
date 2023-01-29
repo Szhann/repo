@@ -153,14 +153,15 @@ Package: com.szh.huafengshouxie85
 Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Szhooo
-Depends: firmware (>= 13),mobilesubstrate
+Depends: firmware (>= 12),mobilesubstrate
 Filename: debs/com.szh.huafengshouxie85_1.0_iphoneos-arm.deb
-Size: 20105114
-MD5sum: 4affa39d08df08c5f154bf120317e7eb
-SHA1: d085105167e003d4c85bb9599dd596b34253a38d
-SHA256: 6b6a2348c23dadffec211ffb7aba912cf8dddf2f4a4b2a139565f8d567fa478f
+Size: 18778616
+MD5sum: 8c335aa25bbbcdb15ba2a9f0833a593d
+SHA1: b80d3392f4fa7e42ab6a8ac66bb58eeb10b93bd4
+SHA256: a45bc2359fc15408c0207df4d567ea2749807965e8bd232ff21a2f0d3173c627
 Section: 字体
 Description: 公众号:字由心雨
+Tag: cydia::commercial
 A12: 1
 Author: 字由心雨
 Icon: https://szhann.github.io/repo/SileoDepiction/Images/SzhFontIcon.png
