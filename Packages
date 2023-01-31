@@ -169,6 +169,26 @@ Name: 花风手写体85%(支持IOS12-15)
 Sileodepiction: https://szhann.github.io/repo/SileoDepiction/com.szh.huafengshouxie85/js.json
 Sponsor: Szhooo
 
+Package: com.szh.huafengshouxie90
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Szhooo
+Depends: firmware (>= 14),mobilesubstrate
+Filename: debs/com.szh.huafengshouxie90_1.0_iphoneos-arm.deb
+Size: 19342092
+MD5sum: d9351f0c91cdb552fd6c19ca94ab5039
+SHA1: 2155d5da5a30856b9c79dfa884aecd8fcc30d5e8
+SHA256: 674e16584f1a36e922f553503df4de2169bd8099e3b9ee4179e28f95ccb035a3
+Section: 字体
+Description: 私人定制
+Tag: cydia::commercial
+A12: 1
+Author: 私人定制
+Icon: https://szhann.github.io/repo/SileoDepiction/Images/SzhFontIcon.png
+Name: 花风手写体90%
+Sileodepiction: https://szhann.github.io/repo/SileoDepiction/com.szh.huafengshouxie90/js.json
+Sponsor: Szhooo
+
 Package: com.szh.qqpurification
 Version: 1.7-6
 Architecture: iphoneos-arm
@@ -206,6 +226,44 @@ Author: 犬神志
 Icon: https://szhann.github.io/repo/SileoDepiction/Images/SzhFontIcon.png
 Name: 假·手书未来体100%
 Sileodepiction: https://szhann.github.io/repo/SileoDepiction/com.szh.shoushuweilai100/js.json
+Sponsor: Szhooo
+
+Package: com.szh.sntdzc100
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Szhooo
+Depends: firmware (>= 13),mobilesubstrate
+Filename: debs/com.szh.sntdzc100_1.0_iphoneos-arm.deb
+Size: 51860052
+MD5sum: 0a50a2c087b25e3cbe9b1822469162a2
+SHA1: 0cdc4d6d3467ed2e67783c11cc441c4a1becfaea
+SHA256: 60d559be8319d60ebb15040ff6cdd5133a13cb1f86796143f8531c5e697f35a2
+Section: 字体
+Description: 公众号:犬神志
+A12: 1
+Author: 犬神志
+Icon: https://szhann.github.io/repo/SileoDepiction/Images/YouXiangIcon.png
+Name: 酸奶体多字重中英文100%
+Sileodepiction: https://szhann.github.io/repo/SileoDepiction/com.szh.sntdzc100/js.json
+Sponsor: Szhooo
+
+Package: com.szh.sntdzc85
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Szhooo
+Depends: firmware (>= 13),mobilesubstrate
+Filename: debs/com.szh.sntdzc85_1.0_iphoneos-arm.deb
+Size: 51254900
+MD5sum: 875539b6ae58b8b1f17f2dd323069f15
+SHA1: e1c09398f4e520e5465faba7bb6c0ce2a5bb1e54
+SHA256: 3ed737f91b7aacf996d19c28a23a03108566122216f9e59d5065c886965aa88d
+Section: 字体
+Description: 公众号:犬神志
+A12: 1
+Author: 犬神志
+Icon: https://szhann.github.io/repo/SileoDepiction/Images/YouXiangIcon.png
+Name: 酸奶体多字重中英文85%
+Sileodepiction: https://szhann.github.io/repo/SileoDepiction/com.szh.sntdzc85/js.json
 Sponsor: Szhooo
 
 Package: com.szh.systemfont90x90
