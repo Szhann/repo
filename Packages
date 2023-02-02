@@ -189,6 +189,44 @@ Name: 花风手写体90%
 Sileodepiction: https://szhann.github.io/repo/SileoDepiction/com.szh.huafengshouxie90/js.json
 Sponsor: Szhooo
 
+Package: com.szh.lsydzc100
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Szhooo
+Depends: firmware (>= 13),mobilesubstrate
+Filename: debs/com.szh.lsydzc100_1.0_iphoneos-arm.deb
+Size: 25919952
+MD5sum: 851d778624cd4c663abd385221dc6dc8
+SHA1: 915e80a7ac952764937e6236cf95f0583d5f633a
+SHA256: e4ecee83c5e1f67965947758147acedd520a939cd211a41f71bc62539686015d
+Section: 字体
+Description: 公众号:犬神志
+A12: 1
+Author: 犬神志
+Icon: https://szhann.github.io/repo/SileoDepiction/Images/SzhFontIcon.png
+Name: 劳斯圆多字重100%
+Sileodepiction: https://szhann.github.io/repo/SileoDepiction/com.szh.lsydzc100/js.json
+Sponsor: Szhooo
+
+Package: com.szh.lsydzc85
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Szhooo
+Depends: firmware (>= 13),mobilesubstrate
+Filename: debs/com.szh.lsydzc85_1.0_iphoneos-arm.deb
+Size: 27226808
+MD5sum: 2e1d18245525e0d843d4b3e4516b89db
+SHA1: 39be3f150692e124d28cbab301485b0d2a6e37d0
+SHA256: 93161fd56511b550d801f933092093dc117926e7f31103412ec6be50fb29aaa4
+Section: 字体
+Description: 公众号:犬神志
+A12: 1
+Author: 犬神志
+Icon: https://szhann.github.io/repo/SileoDepiction/Images/SzhFontIcon.png
+Name: 劳斯圆多字重85%
+Sileodepiction: https://szhann.github.io/repo/SileoDepiction/com.szh.lsydzc85/js.json
+Sponsor: Szhooo
+
 Package: com.szh.qqpurification
 Version: 1.7-6
 Architecture: iphoneos-arm
