@@ -380,6 +380,63 @@ Name: 小黑体80%(支持IOS12-15)
 Sileodepiction: https://szhann.github.io/repo/SileoDepiction/com.szh.xiaoheiti/js.json
 Sponsor: Szhooo
 
+Package: com.szh.ytfsdzc100
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Szhooo
+Depends: firmware (>= 13),mobilesubstrate
+Filename: debs/com.szh.ytfsdzc100_1.0_iphoneos-arm.deb
+Size: 37376688
+MD5sum: d98f31a84c4416813d1e4345475502b4
+SHA1: 885525aa346645a4bb01b3796f24179cb0e361b4
+SHA256: 332c5d9b489b0d6441d9da7efb2ca2cf5f86611ff7997b902ee37719ef687593
+Section: 字体
+Description: 公众号:拾陆字
+A12: 1
+Author: 拾陆字
+Icon: https://szhann.github.io/repo/SileoDepiction/Images/SzhFontIcon.png
+Name: 岩田仿宋高级版100%
+Sileodepiction: https://szhann.github.io/repo/SileoDepiction/com.szh.ytfsdzc100/js.json
+Sponsor: Szhooo
+
+Package: com.szh.ytfsdzc80
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Szhooo
+Depends: firmware (>= 13),mobilesubstrate
+Filename: debs/com.szh.ytfsdzc80_1.0_iphoneos-arm.deb
+Size: 36981816
+MD5sum: c9b24445f067ff2a7528d08bac0a9f4f
+SHA1: 6dc193f5847fd9296f4bb58024a3891a4ce85687
+SHA256: 4ab0ae6578b187effa84a627443524290d3367c9d23d67e400d5b14dd7f4edac
+Section: 字体
+Description: 公众号:拾陆字
+A12: 1
+Author: 拾陆字
+Icon: https://szhann.github.io/repo/SileoDepiction/Images/SzhFontIcon.png
+Name: 岩田仿宋高级版80%
+Sileodepiction: https://szhann.github.io/repo/SileoDepiction/com.szh.ytfsdzc80/js.json
+Sponsor: Szhooo
+
+Package: com.szh.ytfsdzc90
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Szhooo
+Depends: firmware (>= 13),mobilesubstrate
+Filename: debs/com.szh.ytfsdzc90_1.0_iphoneos-arm.deb
+Size: 37896640
+MD5sum: 588a9fb1661bbd532ac6bdcdf5b57500
+SHA1: e544ab9248cd44db7aa7e74fa2fe1491b14e4dde
+SHA256: 38bc8b952f53fc2ad7ef59aebc544ff49c3b9fce2741d7115cc2e3f96081518c
+Section: 字体
+Description: 公众号:拾陆字
+A12: 1
+Author: 拾陆字
+Icon: https://szhann.github.io/repo/SileoDepiction/Images/SzhFontIcon.png
+Name: 岩田仿宋高级版90%
+Sileodepiction: https://szhann.github.io/repo/SileoDepiction/com.szh.ytfsdzc90/js.json
+Sponsor: Szhooo
+
 Package: com.szh.zhengheiti
 Version: 1.0
 Architecture: iphoneos-arm
