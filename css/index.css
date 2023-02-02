@@ -1,0 +1,14 @@
+/*
+* @Author: Zh_Song
+* @Date:   2023-02-02 19:12:19
+* @Last Modified by:   Zh_Song
+* @Last Modified time: 2023-02-02 19:14:13
+*/
+h1 {
+    font-size: 2.8vw;
+    color: #dddddd;
+    text-align: center;
+    padding: 1.5vw 1vw 2vw;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
