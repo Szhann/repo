@@ -36,6 +36,44 @@ Name: 重黑体85%(支持IOS13-15)
 Sileodepiction: https://szhann.github.io/repo/SileoDepiction/com.szh.chongheiti85/js.json
 Sponsor: Szhooo
 
+Package: com.szh.cqwdzc100
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Szhooo
+Depends: firmware (>= 13),mobilesubstrate
+Filename: debs/com.szh.cqwdzc100_1.0_iphoneos-arm.deb
+Size: 30500980
+MD5sum: cc9c9a07e34d9e5ed58c879a3dcc5a1d
+SHA1: f923e0df78e0a394939eca8f47c2396d75a8b434
+SHA256: 83eff6fbcb2fffe37e1b1af0cc6d87e5503a583a4a1f0c89635b5a590fb85a61
+Section: 字体
+Description: 公众号:犬神志
+A12: 1
+Author: 犬神志
+Icon: https://szhann.github.io/repo/SileoDepiction/Images/YouXiangIcon.png
+Name: 赤蔷薇多字重100%
+Sileodepiction: https://szhann.github.io/repo/SileoDepiction/com.szh.cqwdzc100/js.json
+Sponsor: Szhooo
+
+Package: com.szh.cqwdzc85
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Szhooo
+Depends: firmware (>= 13),mobilesubstrate
+Filename: debs/com.szh.cqwdzc85_1.0_iphoneos-arm.deb
+Size: 30559000
+MD5sum: d309b7f55d7d58485a633196eae03f0e
+SHA1: 422642c7b1f9a9141b490e638244a569c1de6983
+SHA256: 6751309075f8864ba4bcc1d5ef035ae040cca727e7e279da724657be385d1730
+Section: 字体
+Description: 公众号:犬神志
+A12: 1
+Author: 犬神志
+Icon: https://szhann.github.io/repo/SileoDepiction/Images/YouXiangIcon.png
+Name: 赤蔷薇多字重85%
+Sileodepiction: https://szhann.github.io/repo/SileoDepiction/com.szh.cqwdzc85/js.json
+Sponsor: Szhooo
+
 Package: com.szh.disableqqupdate
 Version: 1.0
 Architecture: iphoneos-arm
@@ -379,6 +417,63 @@ Name: 腾祥嘉丽圆STC版动态5字重85%
 Sileodepiction: https://szhann.github.io/repo/SileoDepiction/com.szh.txjlystc85/js.json
 Sponsor: Szhooo
 
+Package: com.szh.wfsxt85
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Szhooo
+Depends: firmware (>= 13),mobilesubstrate
+Filename: debs/com.szh.wfsxt85_1.0_iphoneos-arm.deb
+Size: 19075404
+MD5sum: 9f427d8afa83405ee00b0bf76134e4a5
+SHA1: c1fdecad33f91515c06d99a4172fb13e3364d5dd
+SHA256: 70ef587800e5371517cf17063959f66587375c28ef4e30f0b6e7ebd32305a8b9
+Section: 字体
+Description: 公众号:字由心雨
+A12: 1
+Author: 字由心雨
+Icon: https://szhann.github.io/repo/SileoDepiction/Images/SzhFontIcon.png
+Name: 晚风手写体85%
+Sileodepiction: https://szhann.github.io/repo/SileoDepiction/com.szh.wfsxt85/js.json
+Sponsor: Szhooo
+
+Package: com.szh.wgt100
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Szhooo
+Depends: firmware (>= 13),mobilesubstrate
+Filename: debs/com.szh.wgt100_1.0_iphoneos-arm.deb
+Size: 37815448
+MD5sum: e5752a1bb34859e63c41de211d59b672
+SHA1: f8c5b515dda677e6736418a5d276b27500a7323a
+SHA256: 8b0bc1137b78b54efbe41cc46f8b1c072af651c0a8f276f04d8c7fd0ecc276a0
+Section: 字体
+Description: 公众号:犬神志
+A12: 1
+Author: 犬神志
+Icon: https://szhann.github.io/repo/SileoDepiction/Images/SzhFontIcon.png
+Name: 微光体100%
+Sileodepiction: https://szhann.github.io/repo/SileoDepiction/com.szh.wgt100/js.json
+Sponsor: Szhooo
+
+Package: com.szh.wgt85
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Szhooo
+Depends: firmware (>= 13),mobilesubstrate
+Filename: debs/com.szh.wgt85_1.0_iphoneos-arm.deb
+Size: 56445496
+MD5sum: b3269eb4838fe59333b8f86abfebbad9
+SHA1: c4f46c0a7b60373d1b1a5cf4dfa2541f589a48d9
+SHA256: 783f11ec94d4b122861c541ff7a3580f0543470ae9a1e34906d239b52f1542e5
+Section: 字体
+Description: 公众号:犬神志
+A12: 1
+Author: 犬神志
+Icon: https://szhann.github.io/repo/SileoDepiction/Images/SzhFontIcon.png
+Name: 微光体85%
+Sileodepiction: https://szhann.github.io/repo/SileoDepiction/com.szh.wgt85/js.json
+Sponsor: Szhooo
+
 Package: com.szh.xiaoheiti80
 Version: 1.0
 Architecture: iphoneos-arm
@@ -472,5 +567,24 @@ Author: 字由心雨
 Icon: https://szhann.github.io/repo/SileoDepiction/Images/YouXiangIcon.png
 Name: 方正正黑体(支持IOS11-15)
 Sileodepiction: https://szhann.github.io/repo/SileoDepiction/com.szh.zhengheiti/js.json
+Sponsor: Szhooo
+
+Package: com.szh.zzawdlb6zc90
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Szhooo
+Depends: firmware (>= 13),mobilesubstrate
+Filename: debs/com.szh.zzawdlb6zc90_1.0_iphoneos-arm.deb
+Size: 70013660
+MD5sum: 23d94eabc8f04fd900af9f50d45e9882
+SHA1: 28a59fa3a20b72c9caa496b5fc36895018123200
+SHA256: 1feff50726a9b3175b67d234d3e841e9f9d4fa6dbe8523d09255a27ee1c37818
+Section: 字体
+Description: 公众号:拾陆字
+A12: 1
+Author: 拾陆字
+Icon: https://szhann.github.io/repo/SileoDepiction/Images/SzhFontIcon.png
+Name: 筑紫A丸大陆版六字重90%
+Sileodepiction: https://szhann.github.io/repo/SileoDepiction/com.szh.zzawdlb6zc90/js.json
 Sponsor: Szhooo
 
