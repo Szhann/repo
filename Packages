@@ -36,6 +36,24 @@ Name: 重黑体85%(支持IOS13-15)
 Sileodepiction: https://szhann.github.io/repo/SileoDepiction/com.szh.chongheiti85/js.json
 Sponsor: Szhooo
 
+Package: com.szh.disableqqupdate
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Zhooo
+Depends: mobilesubstrate, firmware (>= 9.0)
+Filename: debs/com.szh.disableqqupdate_1.0_iphoneos-arm.deb
+Size: 2728
+MD5sum: 482f8c149cd2dd2bf41c8d38ce9a854b
+SHA1: 51b8b186744af639c5533bb0661579d89bedebc4
+SHA256: 212eab287e0de561e144c7e2a3c41c0ae9404ddc87fcc1c82147539dd53e4cb0
+Section: Tweaks
+Description: 屏蔽低版本QQ更新弹窗，此动态库转载来自互联网。
+Author: 转自互联网
+Icon: https://szhann.github.io/repo/SileoDepiction/Images/Tweaks.png
+Name: DisableQQUpdate
+Sileodepiction: https://szhann.github.io/repo/SileoDepiction/com.szh.disableqqupdate/js.json
+Sponsor: Zhooo
+
 Package: com.szh.endicon
 Version: 1.0
 Architecture: iphoneos-arm
