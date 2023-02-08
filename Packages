@@ -245,6 +245,24 @@ Name: 花风手写体90%
 Sileodepiction: https://szhann.github.io/repo/SileoDepiction/com.szh.huafengshouxie90/js.json
 Sponsor: Szhooo
 
+Package: com.szh.lstimethemes
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Szhooo
+Filename: debs/com.szh.lstimethemes_1.0_iphoneos-arm.deb
+Size: 1453852
+MD5sum: 5a3efd817bdb8c41ae04462cb1fe2061
+SHA1: b1ca5e8e8d5e211b8023820ddbfe9672e5fcdfc9
+SHA256: e4b908c9fa5cd90bf48ff42582aedf55cd283feb7a237cf14bad1dba8207cadb
+Section: 主题(LS Time)
+Description: 一些时间字体
+A12: 1
+Author: Szh
+Icon: https://szhann.github.io/repo/SileoDepiction/Images/Themes.png
+Name: 锁屏时间合集
+Sileodepiction: https://szhann.github.io/repo/SileoDepiction/com.szh.lstimethemes/js.json
+Sponsor: Szhooo
+
 Package: com.szh.lsydzc100
 Version: 1.0
 Architecture: iphoneos-arm
