@@ -245,6 +245,25 @@ Name: 花风手写体90%
 Sileodepiction: https://szhann.github.io/repo/SileoDepiction/com.szh.huafengshouxie90/js.json
 Sponsor: Szhooo
 
+Package: com.szh.hyxlszyw1004
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Zhooo
+Depends: firmware (>= 12),mobilesubstrate
+Filename: debs/com.szh.hyxlszyw1004_1.0_iphoneos-arm.deb
+Size: 23442060
+MD5sum: 15512045bcdb37f29992d4d8bb4b06b4
+SHA1: 045dbc2989ca17aa4975a318ab94c832d80718f9
+SHA256: 837e7064a7cc87403c097e3de7c661cf0174f155e91d53b6f2ff72935442e2e3
+Section: 字体
+Description: 公众号:字由心雨
+A12: 1
+Author: 字由心雨
+Icon: https://szhann.github.io/repo/SileoDepiction/Images/YouXiangIcon.png
+Name: 汉仪小隶书中英文100%
+Sileodepiction: https://szhann.github.io/repo/SileoDepiction/com.szh.hyxlszyw1004/js.json
+Sponsor: Zhooo
+
 Package: com.szh.lstimethemes
 Version: 1.0
 Architecture: iphoneos-arm
