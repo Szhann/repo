@@ -1,6 +1,6 @@
 {
     "class": "DepictionTabView",
-    "headerImage": "https://szhann.github.io/repo/SileoDepiction/HeaderImages/FontBanner.png",
+    "headerImage": "https://repo.zhooo.cn/SileoDepiction/HeaderImages/FontBanner.png",
     "tintColor": "#FF4455",
     "minVersion": "0.3",
     "tabs": [
@@ -63,75 +63,27 @@
                     "screenshots": [
                         {
                             "accessibilityText": "Screenshot",
-                            "url": "https://szhann.github.io/repo/SileoDepiction/com.szh.lstimethemes/Screenshot_0.png"
+                            "url": "https://repo.zhooo.cn/SileoDepiction/com.szh.lstimethemes/Screenshot_0.png"
                         },
                         {
                             "accessibilityText": "Screenshot",
-                            "url": "https://szhann.github.io/repo/SileoDepiction/com.szh.lstimethemes/Screenshot_1.png"
+                            "url": "https://repo.zhooo.cn/SileoDepiction/com.szh.lstimethemes/Screenshot_1.png"
                         },
                         {
                             "accessibilityText": "Screenshot",
-                            "url": "https://szhann.github.io/repo/SileoDepiction/com.szh.lstimethemes/Screenshot_2.png"
+                            "url": "https://repo.zhooo.cn/SileoDepiction/com.szh.lstimethemes/Screenshot_2.png"
                         },
                         {
                             "accessibilityText": "Screenshot",
-                            "url": "https://szhann.github.io/repo/SileoDepiction/com.szh.lstimethemes/Screenshot_3.png"
+                            "url": "https://repo.zhooo.cn/SileoDepiction/com.szh.lstimethemes/Screenshot_3.png"
                         },
                         {
                             "accessibilityText": "Screenshot",
-                            "url": "https://szhann.github.io/repo/SileoDepiction/com.szh.lstimethemes/Screenshot_4.png"
+                            "url": "https://repo.zhooo.cn/SileoDepiction/com.szh.lstimethemes/Screenshot_4.png"
                         },
                         {
                             "accessibilityText": "Screenshot",
-                            "url": "https://szhann.github.io/repo/SileoDepiction/com.szh.lstimethemes/Screenshot_5.png"
-                        },
-                        {
-                            "accessibilityText": "Screenshot",
-                            "url": "https://szhann.github.io/repo/SileoDepiction/com.szh.lstimethemes/Screenshot_6.png"
-                        },
-                        {
-                            "accessibilityText": "Screenshot",
-                            "url": "https://szhann.github.io/repo/SileoDepiction/com.szh.lstimethemes/Screenshot_7.png"
-                        },
-                        {
-                            "accessibilityText": "Screenshot",
-                            "url": "https://szhann.github.io/repo/SileoDepiction/com.szh.lstimethemes/Screenshot_8.png"
-                        },
-                        {
-                            "accessibilityText": "Screenshot",
-                            "url": "https://szhann.github.io/repo/SileoDepiction/com.szh.lstimethemes/Screenshot_9.png"
-                        },
-                        {
-                            "accessibilityText": "Screenshot",
-                            "url": "https://szhann.github.io/repo/SileoDepiction/com.szh.lstimethemes/Screenshot_10.png"
-                        },
-                        {
-                            "accessibilityText": "Screenshot",
-                            "url": "https://szhann.github.io/repo/SileoDepiction/com.szh.lstimethemes/Screenshot_11.png"
-                        },
-                        {
-                            "accessibilityText": "Screenshot",
-                            "url": "https://szhann.github.io/repo/SileoDepiction/com.szh.lstimethemes/Screenshot_12.png"
-                        },
-                        {
-                            "accessibilityText": "Screenshot",
-                            "url": "https://szhann.github.io/repo/SileoDepiction/com.szh.lstimethemes/Screenshot_13.png"
-                        },
-                        {
-                            "accessibilityText": "Screenshot",
-                            "url": "https://szhann.github.io/repo/SileoDepiction/com.szh.lstimethemes/Screenshot_14.png"
-                        },
-                        {
-                            "accessibilityText": "Screenshot",
-                            "url": "https://szhann.github.io/repo/SileoDepiction/com.szh.lstimethemes/Screenshot_15.png"
-                        },
-                        {
-                            "accessibilityText": "Screenshot",
-                            "url": "https://szhann.github.io/repo/SileoDepiction/com.szh.lstimethemes/Screenshot_16.png"
-                        },
-                        {
-                            "accessibilityText": "Screenshot",
-                            "url": "https://szhann.github.io/repo/SileoDepiction/com.szh.lstimethemes/Screenshot_17.png"
+                            "url": "https://repo.zhooo.cn/SileoDepiction/com.szh.lstimethemes/Screenshot_5.png"
                         }
                     ]
                 },

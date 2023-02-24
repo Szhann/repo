@@ -1,6 +1,6 @@
 {
     "class": "DepictionTabView",
-    "headerImage": "https://szhann.github.io/repo/SileoDepiction/HeaderImages/FontBanner.png",
+    "headerImage": "https://repo.zhooo.cn/SileoDepiction/HeaderImages/FontBanner.png",
     "tintColor": "#FF4455",
     "minVersion": "0.3",
     "tabs": [
@@ -63,15 +63,15 @@
                     "screenshots": [
                         {
                             "accessibilityText": "Screenshot",
-                            "url": "https://szhann.github.io/repo/SileoDepiction/com.szh.shoushuweilai100/Screenshot_0.png"
+                            "url": "https://repo.zhooo.cn/SileoDepiction/com.szh.shoushuweilai100/Screenshot_0.png"
                         },
                         {
                             "accessibilityText": "Screenshot",
-                            "url": "https://szhann.github.io/repo/SileoDepiction/com.szh.shoushuweilai100/Screenshot_1.png"
+                            "url": "https://repo.zhooo.cn/SileoDepiction/com.szh.shoushuweilai100/Screenshot_1.png"
                         },
                         {
                             "accessibilityText": "Screenshot",
-                            "url": "https://szhann.github.io/repo/SileoDepiction/com.szh.shoushuweilai100/Screenshot_2.png"
+                            "url": "https://repo.zhooo.cn/SileoDepiction/com.szh.shoushuweilai100/Screenshot_2.png"
                         }
                     ]
                 },

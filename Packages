@@ -1,3 +1,58 @@
+Package: com.szh.cask3
+Version: 2.0
+Architecture: iphoneos-arm
+Maintainer: Ryan Nair
+Installed-Size: 812
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0)
+Filename: debs/com.szh.cask3_2.0_iphoneos-arm.deb
+Size: 318236
+MD5sum: c64a23e07923ebbbfbf390ee9e5a5f6e
+SHA1: 0a725566dbc6433e6d40fff332ea23261718b665
+SHA256: 99891a84707b6b10fd318821463e804a654cb7f3fdb5f8eec1b71331a95a2afb
+Section: Tweaks
+Description: Animated table scrolling
+Author: Ryan Nair
+Icon: https://repo.zhooo.cn/SileoDepiction/com.szh.cask3/icon.png
+Name: Cask 3
+Sileodepiction: https://repo.zhooo.cn/SileoDepiction/com.szh.cask3/js.json
+Sponsor: Zhooo
+
+Package: com.szh.disableqqupdate
+Version: 2.0
+Architecture: iphoneos-arm
+Maintainer: Zhooo
+Depends: mobilesubstrate, firmware (>= 9.0)
+Filename: debs/com.szh.disableqqupdate_2.0_iphoneos-arm.deb
+Size: 2720
+MD5sum: a64d6f00e04ca98e8a59315e69b356b0
+SHA1: c090a17809ad6163bd86e572e4f4e1263056b8a2
+SHA256: 80dacbc25b3d6d05d9515912e46abea51685501df2e702ccd8fcf8318ff7f129
+Section: Tweaks
+Description: 屏蔽低版本QQ更新弹窗，此动态库转载来自互联网。
+Author: 转自互联网
+Icon: https://repo.zhooo.cn/SileoDepiction/Images/Tweaks.png
+Name: DisableQQUpdate
+Sileodepiction: https://repo.zhooo.cn/SileoDepiction/com.szh.disableqqupdate/js.json
+Sponsor: Zhooo
+
+Package: com.szh.endicon
+Version: 2.0
+Architecture: iphoneos-arm
+Maintainer: Zhooo
+Filename: debs/com.szh.endicon_2.0_iphoneos-arm.deb
+Size: 3155880
+MD5sum: 62b0c9ac32aa961541b61fcd6688ec65
+SHA1: 5a326fcedfcb753465d6bef8038b77fd4bf367da
+SHA256: 72e14cfd7755451f8b7f72b9c55855ceeb8fa9a0b820b57ff7ccf2a0ad35a865
+Section: 主题(Icon)
+Description: End 小清新  自用主题
+A12: 1
+Author: Szh
+Icon: https://repo.zhooo.cn/SileoDepiction/Images/Themes.png
+Name: End 小清新
+Sileodepiction: https://repo.zhooo.cn/SileoDepiction/com.szh.endicon/js.json
+Sponsor: Zhooo
+
 Package: com.szh.huafengshouxie90
 Version: 2.0
 Architecture: iphoneos-arm
@@ -16,5 +71,43 @@ Author: 私人定制
 Icon: https://repo.zhooo.cn/SileoDepiction/Images/SzhFontIcon.png
 Name: 花风手写体90%
 Sileodepiction: https://repo.zhooo.cn/SileoDepiction/com.szh.huafengshouxie90/js.json
+Sponsor: Zhooo
+
+Package: com.szh.lstimethemes
+Version: 2.0
+Architecture: iphoneos-arm
+Maintainer: Zhooo
+Filename: debs/com.szh.lstimethemes_2.0_iphoneos-arm.deb
+Size: 1453520
+MD5sum: 4c185b233842eb82a73de6640bc8c9eb
+SHA1: 137fd444a36cca0f096df9c85557dd70d6711309
+SHA256: c88735733d3a094c3fc285f1217f88d7eaf324eca065c943fbf35d91a4776aba
+Section: 主题(LS Time)
+Description: 一些时间字体
+A12: 1
+Author: Szh
+Icon: https://repo.zhooo.cn/SileoDepiction/Images/Themes.png
+Name: 锁屏时间合集
+Sileodepiction: https://repo.zhooo.cn/SileoDepiction/com.szh.lstimethemes/js.json
+Sponsor: Zhooo
+
+Package: com.szh.qqpurification
+Version: 1.7-6
+Architecture: iphoneos-arm
+Maintainer: Zhooo
+Installed-Size: 532
+Depends: mobilesubstrate, firmware (>= 9.0)
+Filename: debs/com.szh.qqpurification_1.7-6_iphoneos-arm.deb
+Size: 142856
+MD5sum: 8e721bde20ede41eee5bdb67c3efef5d
+SHA1: f8d13005ea3fb768979f22d16808dc64b6a52637
+SHA256: 00816f0233236f962e95f5e9108d5626afafadbb964d13f42a7bae88e08e4297
+Section: Tweaks
+Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部
+Author: Netskao <netskao@gmail.com>
+Dev: netskao
+Icon: https://repo.zhooo.cn/SileoDepiction/Images/Tweaks.png
+Name: QQ净化
+Sileodepiction: https://repo.zhooo.cn/SileoDepiction/com.szh.qqpurification/js.json
 Sponsor: Zhooo
 
