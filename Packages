@@ -17,6 +17,25 @@ Name: Cask 3
 Sileodepiction: https://repo.zhooo.cn/SileoDepiction/com.szh.cask3/js.json
 Sponsor: Zhooo
 
+Package: com.szh.chongheiti85
+Version: 2.0
+Architecture: iphoneos-arm
+Maintainer: Zhooo
+Depends: firmware (>= 13),mobilesubstrate
+Filename: debs/com.szh.chongheiti85_2.0_iphoneos-arm.deb
+Size: 50078300
+MD5sum: 185e26b527ecae74d0346b41f519aa17
+SHA1: 2e171ecae52238047432e62e5ac1c1c2e0c3a5b3
+SHA256: 3b99623b12713014cc559b366f61053f66a07a1ca9a1c188367ed3edc27903b3
+Section: 字体
+Description: 公众号:犬神志
+A12: 1
+Author: 犬神志
+Icon: https://repo.zhooo.cn/SileoDepiction/Images/YouXiangIcon.png
+Name: 重黑体85%(支持IOS13-15)
+Sileodepiction: https://repo.zhooo.cn/SileoDepiction/com.szh.chongheiti85/js.json
+Sponsor: Zhooo
+
 Package: com.szh.disableqqupdate
 Version: 2.0
 Architecture: iphoneos-arm
