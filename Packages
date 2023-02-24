@@ -23,10 +23,10 @@ Architecture: iphoneos-arm
 Maintainer: Zhooo
 Depends: firmware (>= 13),mobilesubstrate
 Filename: debs/com.szh.chongheiti85_2.0_iphoneos-arm.deb
-Size: 50078300
-MD5sum: 185e26b527ecae74d0346b41f519aa17
-SHA1: 2e171ecae52238047432e62e5ac1c1c2e0c3a5b3
-SHA256: 3b99623b12713014cc559b366f61053f66a07a1ca9a1c188367ed3edc27903b3
+Size: 50080648
+MD5sum: 885ef61451ab8a22f01ecf0b7f33f65b
+SHA1: a07983a1e64d81d9ab25d16479129b6440bdb023
+SHA256: e9d208aee8d86408bf1f5b636ab696b58b17c15009d62211ea2b2b4a8221b32a
 Section: 字体
 Description: 公众号:犬神志
 A12: 1
