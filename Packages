@@ -1,3 +1,23 @@
+Package: com.szh.bantangriluo
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Zhooo
+Depends: firmware (>= 13),mobilesubstrate
+Filename: debs/com.szh.bantangriluo_1.0_iphoneos-arm.deb
+Size: 33863592
+MD5sum: 1e4badedf088a6f507c49426dcddd93d
+SHA1: 1b69fa9593c9a251192cc7b49a6c56225e56f77e
+SHA256: 168ffbb83f0819196edfb286c5fde1c9ed4365f96b784816705f97eee4965221
+Section: 字体
+Description: 公众号:拾陆字
+Tag: cydia::commercial
+A12: 1
+Author: 拾陆字
+Icon: https://repo.zhooo.cn/SileoDepiction/Images/YouXiangIcon.png
+Name: 半糖日落(支持IOS13-15)
+Sileodepiction: https://repo.zhooo.cn/SileoDepiction/com.szh.bantangriluo/js.json
+Sponsor: Zhooo
+
 Package: com.szh.cask3
 Version: 2.0
 Architecture: iphoneos-arm
@@ -23,10 +43,10 @@ Architecture: iphoneos-arm
 Maintainer: Zhooo
 Depends: firmware (>= 13),mobilesubstrate
 Filename: debs/com.szh.chongheiti85_2.0_iphoneos-arm.deb
-Size: 50080648
-MD5sum: 885ef61451ab8a22f01ecf0b7f33f65b
-SHA1: a07983a1e64d81d9ab25d16479129b6440bdb023
-SHA256: e9d208aee8d86408bf1f5b636ab696b58b17c15009d62211ea2b2b4a8221b32a
+Size: 50064520
+MD5sum: 04a0db99bc39349881815649100ed65b
+SHA1: ea737be37e3557271009808337965294b90fd1ed
+SHA256: 287dd83b61887f3e8a404e1417791fe21ee242366b8fc9faef191479c3bac439
 Section: 字体
 Description: 公众号:犬神志
 A12: 1
@@ -34,6 +54,25 @@ Author: 犬神志
 Icon: https://repo.zhooo.cn/SileoDepiction/Images/YouXiangIcon.png
 Name: 重黑体85%(支持IOS13-15)
 Sileodepiction: https://repo.zhooo.cn/SileoDepiction/com.szh.chongheiti85/js.json
+Sponsor: Zhooo
+
+Package: com.szh.cqwdzc85
+Version: 2.0
+Architecture: iphoneos-arm
+Maintainer: Zhooo
+Depends: firmware (>= 13),mobilesubstrate
+Filename: debs/com.szh.cqwdzc85_2.0_iphoneos-arm.deb
+Size: 30556860
+MD5sum: 55ec7b0e19d7a7c9a48499780e55e77a
+SHA1: 81156305c008bfbaf4d468c791b45bc615ec097e
+SHA256: 16e0ac3e560112c20b90fe26224703490f82f5236a191df024ad8c8e57d6f069
+Section: 字体
+Description: 公众号:犬神志
+A12: 1
+Author: 犬神志
+Icon: https://repo.zhooo.cn/SileoDepiction/Images/YouXiangIcon.png
+Name: 赤蔷薇多字重85%
+Sileodepiction: https://repo.zhooo.cn/SileoDepiction/com.szh.cqwdzc85/js.json
 Sponsor: Zhooo
 
 Package: com.szh.disableqqupdate
@@ -72,16 +111,36 @@ Name: End 小清新
 Sileodepiction: https://repo.zhooo.cn/SileoDepiction/com.szh.endicon/js.json
 Sponsor: Zhooo
 
+Package: com.szh.huafengshouxie85
+Version: 2.0
+Architecture: iphoneos-arm
+Maintainer: Zhooo
+Depends: firmware (>= 12),mobilesubstrate
+Filename: debs/com.szh.huafengshouxie85_2.0_iphoneos-arm.deb
+Size: 18776872
+MD5sum: 353d171775c0395e3e24f60a91ccfd97
+SHA1: 9579aeb805b21cc99f2175bd830dd4cc78545733
+SHA256: 9324c672030f8b4869f3c8e44f6dc3c7cd59d60910fdcdb415ae4368f4938016
+Section: 字体
+Description: 公众号:字由心雨
+Tag: cydia::commercial
+A12: 1
+Author: 字由心雨
+Icon: https://repo.zhooo.cn/SileoDepiction/Images/SzhFontIcon.png
+Name: 花风手写体85%(支持IOS12-15)
+Sileodepiction: https://repo.zhooo.cn/SileoDepiction/com.szh.huafengshouxie85/js.json
+Sponsor: Zhooo
+
 Package: com.szh.huafengshouxie90
 Version: 2.0
 Architecture: iphoneos-arm
 Maintainer: Zhooo
 Depends: firmware (>= 14),mobilesubstrate
 Filename: debs/com.szh.huafengshouxie90_2.0_iphoneos-arm.deb
-Size: 19342044
-MD5sum: e987105df8fa8467ad979d7680c966e2
-SHA1: 81d9901fe3ff740ac6a85a30f4244e1bec9cc2dd
-SHA256: 0e17070a4340789b48acb072e67b523b1d8774f757c1685323c5612e2bbc40d5
+Size: 19344744
+MD5sum: 74e646c67dacff647c16bfef081815dc
+SHA1: 73e958aa40b5894537e7265bd6fb63132586a201
+SHA256: 6e3c06d610066bd20fafbd9cd48e6067bd01c2ddb688f9274034d6e66ad6ab0d
 Section: 字体
 Description: 私人定制
 Tag: cydia::commercial
@@ -128,5 +187,44 @@ Dev: netskao
 Icon: https://repo.zhooo.cn/SileoDepiction/Images/Tweaks.png
 Name: QQ净化
 Sileodepiction: https://repo.zhooo.cn/SileoDepiction/com.szh.qqpurification/js.json
+Sponsor: Zhooo
+
+Package: com.szh.systemfont90x90
+Version: 2.0
+Architecture: iphoneos-arm
+Maintainer: Zhooo
+Depends: firmware (>= 13),mobilesubstrate
+Filename: debs/com.szh.systemfont90x90_2.0_iphoneos-arm.deb
+Size: 42638324
+MD5sum: ae29b4104c69d062067a497bdc83cbd0
+SHA1: 34f3945c659a8fb17b05356a9462f6647b504e83
+SHA256: 618e669649b48c67421aeba20572fa62d698136204c085a8ffabb4fccfc9821d
+Section: 字体
+Description: 公众号:字由心雨
+A12: 1
+Author: 字由心雨
+Icon: https://repo.zhooo.cn/SileoDepiction/Images/SzhFontIcon.png
+Name: IOS14原生字体90%(支持IOS14-15)
+Sileodepiction: https://repo.zhooo.cn/SileoDepiction/com.szh.systemfont90x90/js.json
+Sponsor: Zhooo
+
+Package: com.szh.udj5zczyw95
+Version: 2.0
+Architecture: iphoneos-arm
+Maintainer: Zhooo
+Depends: firmware (>= 14),mobilesubstrate
+Filename: debs/com.szh.udj5zczyw95_2.0_iphoneos-arm.deb
+Size: 13375052
+MD5sum: b3f948edcb890016c008b51d9bcd9077
+SHA1: 8e127ad1b856085f7a9a17f1c2a9214eb51237d8
+SHA256: acadc49976c60bf6a5c6c578b5ce5a1ec153301aaa643777c562d4459045ec4d
+Section: 字体
+Description: 私人定制
+Tag: cydia::commercial
+A12: 1
+Author: 私人定制
+Icon: https://repo.zhooo.cn/SileoDepiction/Images/YouXiangIcon.png
+Name: UD角ゴ_ラージ五字重中英文95%
+Sileodepiction: https://repo.zhooo.cn/SileoDepiction/com.szh.udj5zczyw95/js.json
 Sponsor: Zhooo
 
