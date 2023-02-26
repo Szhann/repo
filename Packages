@@ -37,6 +37,22 @@ Name: Cask 3
 Sileodepiction: https://repo.zhooo.cn/SileoDepiction/com.szh.cask3/js.json
 Sponsor: Zhooo
 
+Package: com.szh.centeredlabels
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: Zhooo
+Installed-Size: 200
+Depends: mobilesubstrate
+Filename: debs/com.szh.centeredlabels_1.1_iphoneos-arm.deb
+Size: 7500
+MD5sum: 23134fa956cf1836c63a705e0fa38b81
+SHA1: f04dfa44ad5c827c637c85a37c993f2f023b4f65
+SHA256: 2bb8ab6bd7026e982509df6d6b20d834cce6df7a6772e89f2c33855bc1472d6a
+Section: Tweaks
+Description: 设置居中
+Author: Ethan Whited
+Name: CenteredLabels
+
 Package: com.szh.chongheiti85
 Version: 2.0
 Architecture: iphoneos-arm
@@ -109,6 +125,44 @@ Author: Szh
 Icon: https://repo.zhooo.cn/SileoDepiction/Images/Themes.png
 Name: End 小清新
 Sileodepiction: https://repo.zhooo.cn/SileoDepiction/com.szh.endicon/js.json
+Sponsor: Zhooo
+
+Package: com.szh.gangbixingkai100
+Version: 2.0
+Architecture: iphoneos-arm
+Maintainer: Zhooo
+Depends: firmware (>= 13),mobilesubstrate
+Filename: debs/com.szh.gangbixingkai100_2.0_iphoneos-arm.deb
+Size: 59282180
+MD5sum: a51dbd7a406c9b1df2cbad9b0f2dfb62
+SHA1: a4aa6ce23bba3a12e04a0fae0b8e54b0f503916d
+SHA256: 20d1a3f9b9c5d30f55ef5b5f5583d3f049f858c89b0104b46faa824375677b71
+Section: 字体
+Description: 公众号:犬神志
+A12: 1
+Author: 犬神志
+Icon: https://repo.zhooo.cn/SileoDepiction/Images/SzhFontIcon.png
+Name: 钢笔行楷多字重100%
+Sileodepiction: https://repo.zhooo.cn/SileoDepiction/com.szh.gangbixingkai100/js.json
+Sponsor: Zhooo
+
+Package: com.szh.gangbixingkai85
+Version: 2.0
+Architecture: iphoneos-arm
+Maintainer: Zhooo
+Depends: firmware (>= 13),mobilesubstrate
+Filename: debs/com.szh.gangbixingkai85_2.0_iphoneos-arm.deb
+Size: 59309392
+MD5sum: 4433081bde3de66040dc336c4ec9221d
+SHA1: 3aca54681bf3b21e74b148a50030a918d732e9cb
+SHA256: e871ef5257ec6029f1dd36a7d0b8da42c1f1a6ab0501dc7fe7a27e0a2ffb7f99
+Section: 字体
+Description: 公众号:犬神志
+A12: 1
+Author: 犬神志
+Icon: https://repo.zhooo.cn/SileoDepiction/Images/SzhFontIcon.png
+Name: 钢笔行楷多字重85%
+Sileodepiction: https://repo.zhooo.cn/SileoDepiction/com.szh.gangbixingkai85/js.json
 Sponsor: Zhooo
 
 Package: com.szh.huafengshouxie85
