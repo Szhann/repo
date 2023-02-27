@@ -1,23 +1,3 @@
-Package: com.szh.bantangriluo
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: Zhooo
-Depends: firmware (>= 13),mobilesubstrate
-Filename: debs/com.szh.bantangriluo_1.0_iphoneos-arm.deb
-Size: 33870716
-MD5sum: e1759b57a533f7046dedb25f0878c986
-SHA1: 6cda4e5161b4e77240869f5d8f64e9ca517053fb
-SHA256: 7f1e639da4fd9831ba9c5c48fd30703239247c6634e4322270c45ef8abd78ca0
-Section: 字体(私人定制)
-Description: 公众号:拾陆字
-Tag: cydia::commercial
-A12: 1
-Author: 拾陆字
-Name: 半糖日落(支持IOS13-15)
-Sponsor: Zhooo
-Icon: https://repo.zhooo.cn/SileoDepiction/Images/YouXiangIcon.png
-Sileodepiction: https://repo.zhooo.cn/SileoDepiction/com.szh.bantangriluo/js.json
-
 Package: com.szh.cask3
 Version: 2.0
 Architecture: iphoneos-arm
@@ -53,25 +33,6 @@ Section: Tweaks
 Description: 设置居中
 Author: Ethan Whited
 Name: CenteredLabels
-
-Package: com.szh.chongheiti85
-Version: 2.0
-Architecture: iphoneos-arm
-Maintainer: Zhooo
-Depends: firmware (>= 13),mobilesubstrate
-Filename: debs/com.szh.chongheiti85_2.0_iphoneos-arm.deb
-Size: 50087500
-MD5sum: b89a3c6714cc0194689d75b677187353
-SHA1: 592b48b6545af855eb29460e9f13c3e828878779
-SHA256: 84b9061e62a59fb6340c712a96c5c8ff0a590ccde6b1d0b62d286d34d3e52f51
-Section: 字体
-Description: 公众号:犬神志
-A12: 1
-Author: 犬神志
-Name: 重黑体85%(支持IOS13-15)
-Sponsor: Zhooo
-Icon: https://repo.zhooo.cn/SileoDepiction/Images/DefaultFontIcon.png
-Sileodepiction: https://repo.zhooo.cn/SileoDepiction/com.szh.chongheiti85/js.json
 
 Package: com.szh.cqwdzc85
 Version: 2.0
@@ -168,26 +129,6 @@ Sponsor: Zhooo
 Icon: https://repo.zhooo.cn/SileoDepiction/Images/DefaultFontIcon.png
 Sileodepiction: https://repo.zhooo.cn/SileoDepiction/com.szh.gangbixingkai100/js.json
 
-Package: com.szh.huafengshouxie85
-Version: 2.0
-Architecture: iphoneos-arm
-Maintainer: Zhooo
-Depends: firmware (>= 12),mobilesubstrate
-Filename: debs/com.szh.huafengshouxie85_2.0_iphoneos-arm.deb
-Size: 18779284
-MD5sum: d119fa4ab7525900ad5ac0d1cf14bfa4
-SHA1: c89b298a0798c3027ec7018ab25cb11bfa3174f7
-SHA256: ee07c40f522a9a8bc68b5758ab63028e1d5377a001f37201ebf1b02107256cf8
-Section: 字体(私人定制)
-Description: 公众号:字由心雨
-Tag: cydia::commercial
-A12: 1
-Author: 字由心雨
-Name: 花风手写体85%(支持IOS12-15)
-Sponsor: Zhooo
-Icon: https://repo.zhooo.cn/SileoDepiction/Images/SzhFontIcon.png
-Sileodepiction: https://repo.zhooo.cn/SileoDepiction/com.szh.huafengshouxie85/js.json
-
 Package: com.szh.huafengshouxie90
 Version: 2.0
 Architecture: iphoneos-arm
@@ -248,26 +189,6 @@ Tags: compatible_min::ios9.0
 Icon: https://repo.zhooo.cn/SileoDepiction/Images/Tweaks.png
 Sileodepiction: https://repo.zhooo.cn/SileoDepiction/com.szh.qqpurification/js.json
 
-Package: com.szh.systemfont90x90
-Version: 2.0
-Architecture: iphoneos-arm
-Maintainer: Zhooo
-Depends: firmware (>= 14),mobilesubstrate
-Filename: debs/com.szh.systemfont90x90_2.0_iphoneos-arm.deb
-Size: 42638396
-MD5sum: ba5f93e9793b51fbfcc78bc740f57667
-SHA1: 55081cb6f7da65a1b9ef7e9fd3af2974ba1c80a6
-SHA256: ca66f4332a8f95311592293ebfb0eebe27390bf017cf92f563fe0c8dd7cb8989
-Section: 字体
-Description: 公众号:字由心雨
-A12: 1
-Author: 字由心雨
-Name: IOS14原生字体90%(支持IOS14-15)
-Sponsor: Zhooo
-Tags: compatible_min::ios14.0
-Icon: https://repo.zhooo.cn/SileoDepiction/Images/DefaultFontIcon.png
-Sileodepiction: https://repo.zhooo.cn/SileoDepiction/com.szh.systemfont90x90/js.json
-
 Package: com.szh.txhtxztzyw
 Version: 1.0
 Architecture: iphoneos-arm
@@ -307,3 +228,81 @@ Sponsor: Zhooo
 Icon: https://repo.zhooo.cn/SileoDepiction/Images/YouXiangIcon.png
 Sileodepiction: https://repo.zhooo.cn/SileoDepiction/com.szh.udj5zczyw95/js.json
 
+Package: com.szh.bantangriluo
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Zhooo
+Depends: firmware (>= 13),mobilesubstrate
+Filename: debs/com.szh.bantangriluo_1.0_iphoneos-arm.deb
+Size: 33867020
+MD5sum: db7cab5f8b244d931c1d13f69061be43
+SHA1: c3c28aca09a34583c8cece135abad31dfdc613d3
+SHA256: 1d413a37f8d8f16a042e91ddff35b8af2279a9b13166098ff8cfb4d219a2caef
+Section: 字体(私人定制)
+Description: 公众号:拾陆字
+Tag: cydia::commercial
+A12: 1
+Author: 拾陆字
+Name: 半糖日落
+Sponsor: Zhooo
+Icon: https://repo.zhooo.cn/SileoDepiction/Images/YouXiangIcon.png
+Sileodepiction: https://repo.zhooo.cn/SileoDepiction/com.szh.bantangriluo/js.json
+
+Package: com.szh.chongheiti85
+Version: 2.0
+Architecture: iphoneos-arm
+Maintainer: Zhooo
+Depends: firmware (>= 13),mobilesubstrate
+Filename: debs/com.szh.chongheiti85_2.0_iphoneos-arm.deb
+Size: 50074504
+MD5sum: a54167ad30b3bff2fc92427ac2bdd792
+SHA1: afdbda6aac5de880e7edec190c76eedc5bb62010
+SHA256: 0e748ff9edc826e581a0f111158653042a21e437aec2687cc285e047cc50830a
+Section: 字体
+Description: 公众号:犬神志
+A12: 1
+Author: 犬神志
+Name: 重黑体85%
+Sponsor: Zhooo
+Icon: https://repo.zhooo.cn/SileoDepiction/Images/DefaultFontIcon.png
+Sileodepiction: https://repo.zhooo.cn/SileoDepiction/com.szh.chongheiti85/js.json
+
+Package: com.szh.huafengshouxie85
+Version: 2.0
+Architecture: iphoneos-arm
+Maintainer: Zhooo
+Depends: firmware (>= 12),mobilesubstrate
+Filename: debs/com.szh.huafengshouxie85_2.0_iphoneos-arm.deb
+Size: 18781144
+MD5sum: 52ed3639ef5f8ab5479e322bb6afdb9b
+SHA1: b2b98e967df043fc27e93ff583cd958998a397f9
+SHA256: 50c66dae9a2b1cbc2ebcf506a71d320f33591816294c9c6163ad9058122d5337
+Section: 字体(私人定制)
+Description: 公众号:字由心雨
+Tag: cydia::commercial
+A12: 1
+Author: 字由心雨
+Name: 花风手写体85%
+Sponsor: Zhooo
+Icon: https://repo.zhooo.cn/SileoDepiction/Images/SzhFontIcon.png
+Sileodepiction: https://repo.zhooo.cn/SileoDepiction/com.szh.huafengshouxie85/js.json
+
+Package: com.szh.systemfont90x90
+Version: 2.0
+Architecture: iphoneos-arm
+Maintainer: Zhooo
+Depends: firmware (>= 14),mobilesubstrate
+Filename: debs/com.szh.systemfont90x90_2.0_iphoneos-arm.deb
+Size: 42637392
+MD5sum: 35daca0753302c8587be074eeedf9136
+SHA1: dad23fd5ac8a62b53625870c908383ef3c23b91a
+SHA256: 5245729bbede83734da5c7a090e1af5f4724e83821517bb56f47fc3a725db22e
+Section: 字体
+Description: 公众号:字由心雨
+A12: 1
+Author: 字由心雨
+Name: IOS14原生字体90%
+Sponsor: Zhooo
+Tags: compatible_min::ios14.0
+Icon: https://repo.zhooo.cn/SileoDepiction/Images/DefaultFontIcon.png
+Sileodepiction: https://repo.zhooo.cn/SileoDepiction/com.szh.systemfont90x90/js.json
