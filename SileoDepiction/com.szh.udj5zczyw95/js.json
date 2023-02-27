@@ -10,8 +10,8 @@
             "views": [
                 {
                     "class": "DepictionButtonView",
-                    "text": "兼容iOS13.0 ~ 15.0",
-                    "action":"",                  
+                    "text": "兼容iOS14.0 ~ 15.0",
+                    "action":"",
                     "tintColor": "#FF7799",
                 },
                 {
@@ -23,7 +23,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "# 酸奶体多字重中英文85%\n\n",
+                    "markdown": "# UD角ゴ_ラージ五字重中英文95%\n\n",
                     "useSpacing": false,
                 },
                 {
@@ -32,7 +32,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 字体转载自公众号:犬神志\n\n",
+                    "markdown": "### 私人定制\n\n",
                     "useSpacing": false,
                 },
                 {
@@ -90,7 +90,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "犬神志",
+                    "text": "拾陆字",
                     "title": "字体作者"
                 },
                 {
@@ -100,12 +100,12 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "iOS13.0 ~ 15.0",
+                    "text": "14.0 - 15.0",
                     "title": "支持范围"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2023 年 01 月 31 日",
+                    "text": "2023 年 02 月 27 日",
                     "title": "更新日期"
                 },
                 {
