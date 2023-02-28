@@ -16,7 +16,7 @@ Name: Cask 3
 Sponsor: Zhooo
 Tags: compatible_min::ios14.0
 Icon: https://repo.zhooo.cn/SileoDepiction/com.szh.cask3/icon.png
-repo.zhooo.cn/SileoDepiction/com.szh.cask3/js.json
+Sileodepiction: https://repo.zhooo.cn/SileoDepiction/com.szh.cask3/js.json
 
 Package: com.szh.centeredlabels
 Version: 1.1
@@ -33,6 +33,9 @@ Section: Tweaks
 Description: 设置居中
 Author: Ethan Whited
 Name: CenteredLabels
+Sponsor: Zhooo
+Icon: https://repo.zhooo.cn/SileoDepiction/Images/Tweaks.png
+Sileodepiction: https://repo.zhooo.cn/SileoDepiction/com.szh.centeredlabels/js.json
 
 Package: com.szh.cqwdzc85
 Version: 2.0
@@ -306,3 +309,175 @@ Sponsor: Zhooo
 Tags: compatible_min::ios14.0
 Icon: https://repo.zhooo.cn/SileoDepiction/Images/DefaultFontIcon.png
 Sileodepiction: https://repo.zhooo.cn/SileoDepiction/com.szh.systemfont90x90/js.json
+
+Package: com.szh.cqwdzc100
+Version: 2.0
+Architecture: iphoneos-arm
+Maintainer: Zhooo
+Depends: firmware (>= 13),mobilesubstrate
+Filename: debs/com.szh.cqwdzc100_2.0_iphoneos-arm.deb
+Size: 30489352
+MD5sum: 57406d8cfdea3baec9abd7c4330ddf32
+SHA1: d32b3fe6a04d797605dfc02d197d38af6127cb2d
+SHA256: 904b735e2923e583abebb29f57abf313ad56daa044e8a7337fc1ac4b31ed0639
+Section: 字体
+Description: 公众号:犬神志
+A12: 1
+Author: 犬神志
+Name: 赤蔷薇多字重100%
+Sponsor: Zhooo
+Icon: https://repo.zhooo.cn/SileoDepiction/Images/DefaultFontIcon.png
+Sileodepiction: https://repo.zhooo.cn/SileoDepiction/com.szh.cqwdzc100/js.json
+
+Package: com.szh.fzjlsxtzyw100
+Version: 2.0
+Architecture: iphoneos-arm
+Maintainer: Zhooo
+Depends: firmware (>= 13),mobilesubstrate
+Filename: debs/com.szh.fzjlsxtzyw100_2.0_iphoneos-arm.deb
+Size: 24586688
+MD5sum: 761dec99f85dee036c3303c9286fd99f
+SHA1: c29ef36096f9515d4d08d5e9fa67e3db62fbd55e
+SHA256: 0bec9b51fd2fe8600fd4034d3d41ac3ef73979188232af2d2aaaed46696acbc7
+Section: 字体
+Description: 公众号:字由心雨
+A12: 1
+Author: 字由心雨
+Name: 方正静蕾手写体中英文100%
+Sponsor: Zhooo
+Icon: https://repo.zhooo.cn/SileoDepiction/Images/DefaultFontIcon.png
+Sileodepiction: https://repo.zhooo.cn/SileoDepiction/com.szh.fzjlsxtzyw100/js.json
+
+Package: com.szh.hyxlszyw1004
+Version: 2.0
+Architecture: iphoneos-arm
+Maintainer: Zhooo
+Depends: firmware (>= 12),mobilesubstrate
+Filename: debs/com.szh.hyxlszyw1004_2.0_iphoneos-arm.deb
+Size: 21200468
+MD5sum: d12a340a637810a7773afd561bd38e1f
+SHA1: f77524b8153597ff92133818369f8f5b7e99c06d
+SHA256: 2ea1c0714a2abffdfde84b342db335e25ce992a641195e505d3f548cfe7a1200
+Section: 字体
+Description: 公众号:字由心雨
+A12: 1
+Author: 字由心雨
+Name: 汉仪小隶书中英文100%
+Sponsor: Zhooo
+Icon: https://repo.zhooo.cn/SileoDepiction/Images/DefaultFontIcon.png
+Sileodepiction: https://repo.zhooo.cn/SileoDepiction/com.szh.hyxlszyw1004/js.json
+
+Package: com.szh.lsydzc100
+Version: 2.0
+Architecture: iphoneos-arm
+Maintainer: Zhooo
+Depends: firmware (>= 13),mobilesubstrate
+Filename: debs/com.szh.lsydzc100_2.0_iphoneos-arm.deb
+Size: 25914760
+MD5sum: d850f8dc5d2006d7b05582c119784381
+SHA1: 6bbe6a4b5715ac5989495157df062bb3b6f1a4a2
+SHA256: 95a62e6985b80775d69a75f4bd2192d4a0b3f9b77e34cf1da9946abf45cdd84e
+Section: 字体
+Description: 公众号:犬神志
+A12: 1
+Author: 犬神志
+Name: 劳斯圆多字重100%
+Sponsor: Zhooo
+Icon: https://repo.zhooo.cn/SileoDepiction/Images/DefaultFontIcon.png
+Sileodepiction: https://repo.zhooo.cn/SileoDepiction/com.szh.lsydzc100/js.json
+
+Package: com.szh.lsydzc85
+Version: 2.0
+Architecture: iphoneos-arm
+Maintainer: Zhooo
+Depends: firmware (>= 13),mobilesubstrate
+Filename: debs/com.szh.lsydzc85_2.0_iphoneos-arm.deb
+Size: 27226188
+MD5sum: 83d039e62e3c03785ac2986bc67d93a3
+SHA1: 69fe72dab653597c8bb6f7959c9c4d87277a3de1
+SHA256: 89352fbf0d8e4128a0080789b4c5f02b0ef467c2b9f4cbcadde7b9008fa4dfc7
+Section: 字体
+Description: 公众号:犬神志
+A12: 1
+Author: 犬神志
+Name: 劳斯圆多字重85%
+Sponsor: Zhooo
+Icon: https://repo.zhooo.cn/SileoDepiction/Images/DefaultFontIcon.png
+Sileodepiction: https://repo.zhooo.cn/SileoDepiction/com.szh.lsydzc85/js.json
+
+Package: com.szh.shoushuweilai100
+Version: 2.0
+Architecture: iphoneos-arm
+Maintainer: Zhooo
+Depends: firmware (>= 13),mobilesubstrate
+Filename: debs/com.szh.shoushuweilai100_2.0_iphoneos-arm.deb
+Size: 27228600
+MD5sum: adde8f84579c7d2efbc0c63cdbb87371
+SHA1: 4bfc8cb449913b6a037ab0397202eb755f3fef5a
+SHA256: f3e9c2f43a9ee5415db6f9068e840e391f895c209f78cbc115bd3edcf5aa16e1
+Section: 字体
+Description: 公众号:犬神志
+A12: 1
+Author: 犬神志
+Name: 假·手书未来体100%
+Sponsor: Zhooo
+Icon: https://repo.zhooo.cn/SileoDepiction/Images/DefaultFontIcon.png
+Sileodepiction: https://repo.zhooo.cn/SileoDepiction/com.szh.shoushuweilai100/js.json
+
+Package: com.szh.sntdzc100
+Version: 2.0
+Architecture: iphoneos-arm
+Maintainer: Zhooo
+Depends: firmware (>= 13),mobilesubstrate
+Filename: debs/com.szh.sntdzc100_2.0_iphoneos-arm.deb
+Size: 51861000
+MD5sum: dded0334a854271387f0f71394832e34
+SHA1: f8ab5b8c269a02df5fab76b058a12bc1c7071bd2
+SHA256: b973db3b9f97e4d83d182d3098f6793621977068f69e17062bc8ad4ccbebf169
+Section: 字体
+Description: 公众号:犬神志
+A12: 1
+Author: 犬神志
+Name: 酸奶体多字重中英文100%
+Sponsor: Zhooo
+Icon: https://repo.zhooo.cn/SileoDepiction/Images/DefaultFontIcon.png
+Sileodepiction: https://repo.zhooo.cn/SileoDepiction/com.szh.sntdzc100/js.json
+
+Package: com.szh.sntdzc85
+Version: 2.0
+Architecture: iphoneos-arm
+Maintainer: Zhooo
+Depends: firmware (>= 13),mobilesubstrate
+Filename: debs/com.szh.sntdzc85_2.0_iphoneos-arm.deb
+Size: 51253664
+MD5sum: b8cab0fd30b85751a5561065f084ba4a
+SHA1: 7dd1a95e8950e215177997df93e075edd8a2cb49
+SHA256: cac3f0275f03b7883557d14f0276ea3914eb5288a00282b112823e4f87a4bbfc
+Section: 字体
+Description: 公众号:犬神志
+A12: 1
+Author: 犬神志
+Name: 酸奶体多字重中英文85%
+Sponsor: Zhooo
+Icon: https://repo.zhooo.cn/SileoDepiction/Images/DefaultFontIcon.png
+Sileodepiction: https://repo.zhooo.cn/SileoDepiction/com.szh.sntdzc85/js.json
+
+Package: com.szh.xiaoheiti80
+Version: 2.0
+Architecture: iphoneos-arm
+Maintainer: Zhooo
+Depends: firmware (>= 13),mobilesubstrate
+Filename: debs/com.szh.xiaoheiti80_2.0_iphoneos-arm.deb
+Size: 20181216
+MD5sum: c704b0276ddc30e5b6547b6ccf81026c
+SHA1: aadd1ee567b6841f3b7520cf7b237235486b990d
+SHA256: 6ad4bee70748e745d75622022cc381479d28dcc600dbab82c4e543f812ffca6f
+Section: 字体
+Description: 公众号:字由心雨
+A12: 1
+Author: 字由心雨
+Name: 小黑体80%
+Sponsor: Zhooo
+Icon: https://repo.zhooo.cn/SileoDepiction/Images/DefaultFontIcon.png
+Sileodepiction: https://repo.zhooo.cn/SileoDepiction/com.szh.xiaoheiti80/js.json
+
