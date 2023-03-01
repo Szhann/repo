@@ -428,15 +428,15 @@ Architecture: iphoneos-arm
 Maintainer: Zhooo
 Depends: firmware (>= 13),mobilesubstrate
 Filename: debs/com.szh.tuanyuanti85_2.0_iphoneos-arm.deb
-Size: 19007020
-MD5sum: f621672cab733330b05fa24faf0dedac
-SHA1: 181b252cadd3f7899fac62586e0a5fbf6e8f030c
-SHA256: 4a27d9add103f8a9e49e9b69eac665e34089f31c827920aad1e7882900d1f54c
+Size: 19008916
+MD5sum: b80a9833b3252b3aeb9efd984d11720f
+SHA1: 0079e3b51325b4355f2c395a9035f02a8bf829ce
+SHA256: 153ee62cca0f0f39583228a7e5c183d7d1a330fdc63aac8b23e92237d54fc9ca
 Section: 字体
 Description: 公众号:犬神志
 A12: 1
 Author: 犬神志
-Name: 团圆体 简版85%(支持IOS12-15)
+Name: 团圆体 简版85%
 Sponsor: Zhooo
 Icon: https://repo.zhooo.cn/SileoDepiction/Images/DefaultFontIcon.png
 Sileodepiction: https://repo.zhooo.cn/SileoDepiction/com.szh.tuanyuanti85/js.json
