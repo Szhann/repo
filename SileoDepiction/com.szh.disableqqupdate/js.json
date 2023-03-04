@@ -10,7 +10,7 @@
             "views": [
                 {
                     "class": "DepictionButtonView",
-                    "text": "兼容iOS19.0或更高",
+                    "text": "兼容iOS9.0或更高",
                     "action":"",                  
                     "tintColor": "#FF7799",
                 },
