@@ -1,0 +1,140 @@
+{
+    "class": "DepictionTabView",
+    "headerImage": "https://repo.zhooo.cn/SileoDepiction/HeaderImages/FontBanner.png",
+    "tintColor": "#FF4455",
+    "minVersion": "0.3",
+    "tabs": [
+        {
+            "class": "DepictionStackView",
+            "tabname": "描述",
+            "views": [
+                {
+                    "class": "DepictionButtonView",
+                    "text": "兼容iOS9.0以上",
+                    "action":"",                  
+                    "tintColor": "#FF7799",
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "# 锁屏时间字体\n\n",
+                    "useSpacing": false,
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### SnowBoard加载方式：\n\n\n\n1.使用需下载 SnowBoard Fonts Extension .\n\n\n\n替换方式：\n\n1.下载本主题插件\n\n2.进入Filza路径/Library/Themes/Time(xxxxxx).theme/ANEMFontsOverride路径下复制SFUISoft.ttc文件\n\n3.进入/System/Library/Fonts/CoreUI粘贴刚才复制的文件(注意:替换前先备份原字体)\n\n4.卸载本插件\n\n\n\n推荐使用Snowboard加载 18种锁屏字体随心切换\n\n\n\n",
+                    "useSpacing": false,
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                },
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "屏幕截图",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                },
+                {
+                    "class": "DepictionScreenshotsView",
+                    "itemCornerRadius": 6,
+                    "itemSize": "{160, 346.4533333333333}",
+                    "screenshots": [
+                        {
+                            "accessibilityText": "Screenshot",
+                            "url": "https://repo.zhooo.cn/SileoDepiction/com.szh.lstimethemes/Screenshot_0.png"
+                        },
+                        {
+                            "accessibilityText": "Screenshot",
+                            "url": "https://repo.zhooo.cn/SileoDepiction/com.szh.lstimethemes/Screenshot_1.png"
+                        },
+                        {
+                            "accessibilityText": "Screenshot",
+                            "url": "https://repo.zhooo.cn/SileoDepiction/com.szh.lstimethemes/Screenshot_2.png"
+                        },
+                        {
+                            "accessibilityText": "Screenshot",
+                            "url": "https://repo.zhooo.cn/SileoDepiction/com.szh.lstimethemes/Screenshot_3.png"
+                        }
+                    ]
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                },
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "详情",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "Szh",
+                    "title": "插件作者"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "1.0",
+                    "title": "最新版本"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "iOS9以上",
+                    "title": "支持范围"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "2023 年 02 月 08 日",
+                    "title": "更新日期"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                }
+            ]
+        },
+        {
+            "class": "DepictionStackView",
+            "tabname": "更新日志",
+            "views": [
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "#### 版本 1.0\n\n初始化安装."
+                }
+            ]
+        }
+    ],
+}

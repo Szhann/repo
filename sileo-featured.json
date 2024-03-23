@@ -1,0 +1,49 @@
+{
+    "class": "FeaturedBannersView",
+    "itemSize": "{263, 148}",
+    "itemCornerRadius": 10,
+    "banners": [
+        {
+            "url": "https://repo.zhooo.cn/SileoDepiction/com.szh.cask3/banner.png",
+            "title": "Cask 3",
+            "package": "com.szh.cask3",
+            "hideShadow": false
+        },
+        {
+            "url": "https://repo.zhooo.cn/SileoDepiction/HeaderImages/FontBanner.png",
+            "title": "重黑体85%",
+            "package": "com.szh.chongheiti85",
+            "hideShadow": false
+        },
+        {
+            "url": "https://repo.zhooo.cn/SileoDepiction/HeaderImages/Default.png",
+            "title": "QQ净化",
+            "package": "com.szh.qqpurification",
+            "hideShadow": false
+        },
+        {
+            "url": "https://repo.zhooo.cn/SileoDepiction/HeaderImages/FontBanner.png",
+            "title": "花风手写体小字体85%",
+            "package": "com.szh.huafengshouxie85",
+            "hideShadow": false
+        },
+        {
+            "url": "https://repo.zhooo.cn/SileoDepiction/HeaderImages/FontBanner.png",
+            "title": "iOS14原生字体90%",
+            "package": "com.szh.systemfont90x90",
+            "hideShadow": false
+        },
+        {
+            "url": "https://repo.zhooo.cn/SileoDepiction/HeaderImages/FontBanner.png",
+            "title": "团圆体 简版85%",
+            "package": "com.szh.tuanyuanti85",
+            "hideShadow": false
+        },
+        {
+            "url": "https://repo.zhooo.cn/SileoDepiction/HeaderImages/FontBanner.png",
+            "title": "方正正黑体",
+            "package": "com.szh.zhengheiti",
+            "hideShadow": false
+        }
+    ]
+}

@@ -1,0 +1,140 @@
+{
+    "class": "DepictionTabView",
+    "headerImage": "https://repo.zhooo.cn/SileoDepiction/HeaderImages/FontBanner.png",
+    "tintColor": "#FF4455",
+    "minVersion": "0.3",
+    "tabs": [
+        {
+            "class": "DepictionStackView",
+            "tabname": "描述",
+            "views": [
+                {
+                    "class": "DepictionButtonView",
+                    "text": "兼容iOS13.0 ~ 15.0",
+                    "action":"",
+                    "tintColor": "#FF7799",
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "# 劳斯圆多字重85%\n\n",
+                    "useSpacing": false,
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 字体转载自公众号:犬神志\n\n",
+                    "useSpacing": false,
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                },
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "屏幕截图",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                },
+                {
+                    "class": "DepictionScreenshotsView",
+                    "itemCornerRadius": 6,
+                    "itemSize": "{160, 346.4533333333333}",
+                    "screenshots": [
+                        {
+                            "accessibilityText": "Screenshot",
+                            "url": "https://repo.zhooo.cn/SileoDepiction/com.szh.lsydzc85/Screenshot_0.png"
+                        },
+                        {
+                            "accessibilityText": "Screenshot",
+                            "url": "https://repo.zhooo.cn/SileoDepiction/com.szh.lsydzc85/Screenshot_1.png"
+                        },
+                        {
+                            "accessibilityText": "Screenshot",
+                            "url": "https://repo.zhooo.cn/SileoDepiction/com.szh.lsydzc85/Screenshot_2.png"
+                        },
+                        {
+                            "accessibilityText": "Screenshot",
+                            "url": "https://repo.zhooo.cn/SileoDepiction/com.szh.lsydzc85/Screenshot_3.png"
+                        }
+                    ]
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                },
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "详情",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "犬神志",
+                    "title": "字体作者"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "1.0",
+                    "title": "最新版本"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "13.0 - 15.0",
+                    "title": "支持范围"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "2023 年 02 月 02 日",
+                    "title": "更新日期"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                }
+            ]
+        },
+        {
+            "class": "DepictionStackView",
+            "tabname": "更新日志",
+            "views": [
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "#### 版本 1.0\n\n初始化字体安装."
+                }
+            ]
+        }
+    ],
+}
