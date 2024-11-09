@@ -27,22 +27,17 @@
             </header>
             
             <div class="card shadow-sm mx-auto" style="max-width: 600px;">
-                <div class="card-body text-center">
-                    <h2 class="card-title mb-4">添加源</h2>
-                    <div class="repo-url p-3 rounded mb-3">
-                        {{ repoUrl }}
-                    </div>
-                    <button class="btn btn-primary mb-4" @click="copyRepoUrl">
-                        复制源地址
-                    </button>
-                    <div class="d-flex justify-content-center gap-3 flex-wrap">
+                <div class="card-body text-center d-flex flex-column justify-content-center">
+                    <p class="repo-url p-3 rounded mb-3">{{ repoUrl }}</p>
+                    <div class="d-flex flex-column align-items-center gap-3">
+                        <button class="btn btn-primary" @click="copyRepoUrl" style="min-width: 180px;">
+                            复制源地址
+                        </button>
                         <a v-for="store in stores" 
                            :key="store.name"
                            :href="store.url + repoUrl"
-                           :class="['btn d-flex align-items-center', store.btnClass]"
+                           :class="['btn d-flex align-items-center justify-content-center', store.btnClass]"
                            style="min-width: 180px;">
-                            <img :src="store.icon" :alt="store.name" 
-                                 class="me-2" style="width: 20px; height: 20px;">
                             <span>在{{ store.name }}中添加</span>
                         </a>
                     </div>

@@ -6,14 +6,19 @@
     --font-family-mono: 'Roboto Mono', monospace;
 }
 
-/* 基础样式 */
 body {
     background-color: var(--bs-body-bg);
     color: var(--bs-body-color);
     font-family: var(--font-family-base);
 }
 
-/* 头像样式 */
+.card.shadow-sm {
+    background: transparent !important;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.25);
+    border-radius: 16px;
+}
+
 .avatar {
     width: 100px;
     height: 100px;
@@ -29,14 +34,11 @@ body {
     object-fit: cover;
 }
 
-/* 源地址样式 */
 .repo-url {
     font-family: var(--font-family-mono);
     word-break: break-all;
-    color: var(--bs-body-color);
 }
 
-/* 粒子背景样式 */
 #particles-js {
     position: fixed;
     width: 100%;
@@ -45,6 +47,7 @@ body {
     left: 0;
     z-index: -1;
     background-color: var(--bs-body-bg);
+    opacity: 0.8;
 }
 
 #app {
@@ -52,7 +55,30 @@ body {
     z-index: 1;
 }
 
-/* 深色模式适配 */
+.btn-cydia {
+    background-color: #8B4513;
+    border-color: #8B4513;
+    color: white;
+}
+
+.btn-cydia:hover {
+    background-color: #733A0F;
+    border-color: #733A0F;
+    color: white;
+}
+
+.btn-sileo {
+    background-color: #2ECC71;
+    border-color: #2ECC71;
+    color: white;
+}
+
+.btn-sileo:hover {
+    background-color: #27AE60;
+    border-color: #27AE60;
+    color: white;
+}
+
 @media (prefers-color-scheme: dark) {
     :root {
         --bs-body-bg: #1a1a1a;
@@ -60,9 +86,8 @@ body {
         --bs-card-bg: #2d2d2d;
     }
     
-    .card {
-        background-color: var(--bs-card-bg);
-        border-color: rgba(255, 255, 255, 0.1);
+    .card.shadow-sm {
+        border-color: rgba(255, 255, 255, 0.05);
     }
     
     .text-muted {
@@ -70,6 +95,6 @@ body {
     }
     
     .particles-js-canvas-el {
-        opacity: 0.3;
+        opacity: 0.5;
     }
 }

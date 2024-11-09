@@ -19,14 +19,12 @@ const app = createApp({
                 {
                     name: 'Cydia',  // 商店名称
                     url: 'cydia://url/https://cydia.saurik.com/api/share#?source=',  // Cydia添加源的URL scheme
-                    icon: 'assets/images/cydia-icon.png',  // 商店图标路径
-                    btnClass: 'btn-dark'  // 按钮样式类（使用Bootstrap的深色按钮）
+                    btnClass: 'btn-cydia'  // 自定义Cydia按钮样式
                 },
                 {
                     name: 'Sileo',
                     url: 'sileo://source/',  // Sileo添加源的URL scheme
-                    icon: 'assets/images/sileo-icon.png',
-                    btnClass: 'btn-primary'  // 使用Bootstrap的主色调按钮
+                    btnClass: 'btn-sileo'  // 自定义Sileo按钮样式
                 }
             ]
         }
