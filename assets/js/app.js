@@ -10,21 +10,21 @@ const app = createApp({
             avatar: 'CydiaIcon.png',
             // 网站描述文字
             description: 'A-Zhooo个人软件源',
-            // 软件源地址（更新为新域名）
+            // 软件源地址
             repoUrl: 'https://repo.zhooo.cn',
             // 版权信息
-            copyright: '© 2024 我的Cydia源. 保留所有权利.',
+            copyright: '© 2019-2024 我的Cydia源. 保留所有权利.',
             // 商店配置数组
             stores: [
                 {
                     name: 'Cydia',  // 商店名称
                     url: 'cydia://url/https://cydia.saurik.com/api/share#?source=',  // Cydia添加源的URL scheme
-                    btnClass: 'btn-cydia'  // 自定义Cydia按钮样式
+                    btnClass: 'btn-cydia'  // 按钮样式类
                 },
                 {
                     name: 'Sileo',
                     url: 'sileo://source/',  // Sileo添加源的URL scheme
-                    btnClass: 'btn-sileo'  // 自定义Sileo按钮样式
+                    btnClass: 'btn-sileo'  // 按钮样式类
                 }
             ]
         }
@@ -45,4 +45,4 @@ const app = createApp({
             }
         }
     }
-}).mount('#app') 
+}).mount('#app')  // 将Vue应用挂载到#app元素

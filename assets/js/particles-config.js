@@ -1,113 +1,124 @@
 // 检测是否为深色模式
 const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
 
-const particlesConfig = {
-    particles: {
-        number: {
-            value: 80,
-            density: {
-                enable: true,
-                value_area: 800
-            }
-        },
-        color: {
-            value: isDarkMode ? [
-                "#ffffff",  // 深色模式下使用较亮的颜色
-                "#f1c40f",
-                "#e74c3c",
-                "#2ecc71",
-                "#3498db",
-                "#9b59b6"
-            ] : [
-                "#2c3e50",  // 浅色模式下使用较深的颜色
-                "#c0392b",
-                "#16a085",
-                "#8e44ad",
-                "#2980b9",
-                "#d35400"
-            ]
-        },
-        shape: {
-            type: "circle"
-        },
-        opacity: {
-            value: isDarkMode ? 0.5 : 0.6,
-            random: true,
-            anim: {
-                enable: true,
-                speed: 1,
-                opacity_min: isDarkMode ? 0.2 : 0.3,
-                sync: false
-            }
-        },
-        size: {
-            value: 4,
-            random: true
-        },
-        line_linked: {
-            enable: true,
-            distance: 150,
-            color: isDarkMode ? "rgba(255,255,255,0.4)" : "rgba(44,62,80,0.4)",
-            opacity: isDarkMode ? 0.4 : 0.3,
-            width: 1
-        },
-        move: {
-            enable: true,
-            speed: 2,
-            random: true
-        }
-    },
-    interactivity: {
-        detect_on: "canvas",
-        events: {
-            onhover: {
-                enable: true,
-                mode: "grab"
-            },
-            onclick: {
-                enable: true,
-                mode: "push"
-            },
-            resize: true
-        },
-        modes: {
-            grab: {
-                distance: 140,
-                line_linked: {
-                    opacity: 1
+// 创建粒子配置生成函数
+function createParticlesConfig(isDark) {
+    return {
+        particles: {
+            number: {
+                value: 80,
+                density: {
+                    enable: true,
+                    value_area: 800
                 }
             },
-            push: {
-                particles_nb: 4
+            color: {
+                value: isDark ? [
+                    "#FFFFFF",  // 白色
+                    "#F1C40F",  // 明亮的黄色
+                    "#E74C3C",  // 鲜艳的红色
+                    "#2ECC71",  // 鲜艳的绿色
+                    "#3498DB",  // 明亮的蓝色
+                    "#9B59B6",  // 明亮的紫色
+                    "#1ABC9C",  // 明亮的青色
+                    "#F39C12"   // 明亮的橙色
+                ] : [
+                    "#E74C3C",  // 深红
+                    "#2980B9",  // 深蓝
+                    "#27AE60",  // 深绿
+                    "#8E44AD",  // 深紫
+                    "#D35400",  // 深橙
+                    "#16A085",  // 深青
+                    "#C0392B",  // 暗红
+                    "#2C3E50"   // 深灰蓝
+                ]
+            },
+            shape: {
+                type: "circle"
+            },
+            opacity: {
+                value: isDark ? 0.7 : 0.5,
+                random: true,
+                anim: {
+                    enable: true,
+                    speed: 1,
+                    opacity_min: 0.3,
+                    sync: false
+                }
+            },
+            size: {
+                value: 4,
+                random: true
+            },
+            line_linked: {
+                enable: true,
+                distance: 150,
+                color: isDark ? "#FFFFFF" : "#2C3E50",
+                opacity: 0.4,
+                width: 1
+            },
+            move: {
+                enable: true,
+                speed: 2,
+                random: true,
+                direction: "none",
+                straight: false,
+                out_mode: "out",
+                bounce: false
             }
-        }
-    },
-    retina_detect: true
-};
-
-// 初始化粒子系统
-function initParticles() {
-    particlesJS('particles-js', particlesConfig);
+        },
+        interactivity: {
+            detect_on: "canvas",
+            events: {
+                onhover: {
+                    enable: true,
+                    mode: "grab"
+                },
+                onclick: {
+                    enable: true,
+                    mode: "push"
+                },
+                resize: true
+            },
+            modes: {
+                grab: {
+                    distance: 140,
+                    line_linked: {
+                        opacity: 1
+                    }
+                },
+                push: {
+                    particles_nb: 4
+                }
+            }
+        },
+        retina_detect: true
+    };
 }
 
-// 监听深色模式变化并平滑过渡
-const darkModeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
-darkModeMediaQuery.addEventListener('change', (e) => {
-    // 更新配置中的颜色
-    particlesConfig.particles.color.value = e.matches ? [
-        "#ffffff", "#f1c40f", "#e74c3c", "#2ecc71", "#3498db", "#9b59b6"
-    ] : [
-        "#2c3e50", "#c0392b", "#16a085", "#8e44ad", "#2980b9", "#d35400"
-    ];
+// 初始化粒子系统
+function initParticles(isDark) {
+    const canvas = document.querySelector('.particles-js-canvas-el');
+    if (canvas) {
+        canvas.style.transition = 'opacity 0.3s ease';
+        canvas.style.opacity = '0';
+    }
     
-    particlesConfig.particles.line_linked.color = e.matches ? 
-        "rgba(255,255,255,0.4)" : "rgba(44,62,80,0.4)";
-    
-    // 重新初始化粒子
     setTimeout(() => {
-        initParticles();
-    }, 300); // 等待背景色过渡完成
-});
+        particlesJS('particles-js', createParticlesConfig(isDark));
+        if (canvas) {
+            setTimeout(() => {
+                canvas.style.opacity = '1';
+            }, 50);
+        }
+    }, 300);
+}
 
 // 初始化
-initParticles(); 
+initParticles(isDarkMode);
+
+// 监听深色模式变化
+const darkModeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+darkModeMediaQuery.addEventListener('change', (e) => {
+    initParticles(e.matches);
+}); 
