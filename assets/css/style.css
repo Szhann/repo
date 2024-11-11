@@ -6,19 +6,14 @@
     --font-family-mono: 'Roboto Mono', monospace;
 }
 
+/* 基础样式 */
 body {
     background-color: var(--bs-body-bg);
     color: var(--bs-body-color);
     font-family: var(--font-family-base);
 }
 
-.card.shadow-sm {
-    background: transparent !important;
-    border: 2px solid rgba(255, 255, 255, 0.1);
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.25);
-    border-radius: 16px;
-}
-
+/* 头像样式 */
 .avatar {
     width: 100px;
     height: 100px;
@@ -34,11 +29,14 @@ body {
     object-fit: cover;
 }
 
+/* 源地址样式 */
 .repo-url {
     font-family: var(--font-family-mono);
     word-break: break-all;
+    color: var(--bs-body-color);
 }
 
+/* 粒子背景样式 */
 #particles-js {
     position: fixed;
     width: 100%;
@@ -47,7 +45,6 @@ body {
     left: 0;
     z-index: -1;
     background-color: var(--bs-body-bg);
-    opacity: 0.8;
 }
 
 #app {
@@ -55,6 +52,159 @@ body {
     z-index: 1;
 }
 
+/* 文字样式 */
+h2.card-title {
+    font-weight: 700;
+}
+
+.text-muted {
+    font-weight: 400;
+}
+
+.btn {
+    font-family: var(--font-family-base);
+    font-weight: 500;
+}
+
+.store-btn.cydia-btn {
+    background: #333;
+}
+
+.store-btn.sileo-btn {
+    background: #1473e6;
+}
+
+.store-btn.zebra-btn {
+    background: #ee5434;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    color: var(--desc-color);
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+    
+    header {
+        padding: 20px 0;
+    }
+    
+    header h1 {
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 576px) {
+    .store-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .store-btn {
+        width: 200px;
+    }
+}
+
+/* 深色模式下的按钮样式调整 */
+@media (prefers-color-scheme: dark) {
+    .store-btn.cydia-btn {
+        background: #444;
+    }
+
+    .store-btn.sileo-btn {
+        background: #1884ff;
+    }
+
+    .store-btn.zebra-btn {
+        background: #ff6347;
+    }
+
+    button {
+        background: #0088ff;
+    }
+}
+
+/* 适配深色模式的头像边框 */
+@media (prefers-color-scheme: dark) {
+    .avatar {
+        border-color: var(--card-bg);
+    }
+}
+
+/* 在现有样式基础上添加或修改 */
+
+/* 移动设备适配 */
+@media (max-width: 576px) {
+    .card.shadow-sm {
+        margin: 15px;
+        border-radius: 12px;
+    }
+
+    .avatar {
+        width: 80px;  /* 稍微缩小头像 */
+        height: 80px;
+    }
+
+    .repo-url {
+        font-size: 14px;  /* 调整源地址字体大小 */
+        padding: 10px !important;
+    }
+
+    .btn {
+        width: 100%;  /* 按钮占满宽度 */
+        min-width: unset !important;
+        height: 40px;  /* 稍微降低按钮高度 */
+        font-size: 14px;
+    }
+
+    .card-body {
+        padding: 1rem;  /* 减小内边距 */
+    }
+}
+
+/* 平板设备适配 */
+@media (min-width: 577px) and (max-width: 768px) {
+    .card.shadow-sm {
+        margin: 20px;
+    }
+
+    .btn {
+        min-width: 200px !important;
+    }
+}
+
+/* 优化按钮点击效果 */
+.btn {
+    transition: transform 0.2s, opacity 0.2s;
+}
+
+.btn:active {
+    transform: scale(0.98);
+}
+
+/* 优化源地址显示 */
+.repo-url {
+    user-select: all;  /* 方便选择文本 */
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.repo-url:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+@media (prefers-color-scheme: dark) {
+    .repo-url:hover {
+        background-color: rgba(255, 255, 255, 0.05);
+    }
+}
+
+/* 按钮样式 */
 .btn-cydia {
     background-color: #8B4513;
     border-color: #8B4513;
@@ -79,22 +229,157 @@ body {
     color: white;
 }
 
-@media (prefers-color-scheme: dark) {
-    :root {
-        --bs-body-bg: #1a1a1a;
-        --bs-body-color: #fff;
-        --bs-card-bg: #2d2d2d;
-    }
-    
+/* 在CSS文件末尾添加竖屏设备的媒体查询 */
+@media screen and (max-width: 576px) {
+    /* 调整卡片边距 */
     .card.shadow-sm {
-        border-color: rgba(255, 255, 255, 0.05);
+        margin: 15px;
     }
-    
+
+    /* 调整按钮宽度 */
+    .btn {
+        width: 200px !important;  /* 在手机上加宽按钮 */
+    }
+
+    /* 调整头像大小 */
+    .avatar {
+        width: 80px;
+        height: 80px;
+    }
+
+    /* 调整源地址文字大小 */
+    .repo-url {
+        font-size: 14px;
+        padding: 10px !important;
+    }
+
+    /* 调整卡片内边距 */
+    .card-body {
+        padding: 1rem;
+    }
+}
+
+/* 常规手机屏幕 */
+@media screen and (max-width: 576px) {
+    .card.shadow-sm {
+        margin: 15px;
+    }
+
+    .btn {
+        width: 200px !important;
+    }
+
+    .avatar {
+        width: 80px;
+        height: 80px;
+    }
+
+    .repo-url {
+        font-size: 14px;
+        padding: 10px !important;
+    }
+
+    .card-body {
+        padding: 1rem;
+    }
+}
+
+/* iPhone SE 和其他小屏设备 (375px 及以下) */
+@media screen and (max-width: 375px) {
+    .card.shadow-sm {
+        margin: 10px;  /* 减小边距 */
+    }
+
+    .btn {
+        width: 160px !important;  /* 减小按钮宽度 */
+        font-size: 13px;  /* 稍微减小字体 */
+        padding: 8px 12px;  /* 减小内边距 */
+    }
+
+    .avatar {
+        width: 70px;  /* 进一步缩小头像 */
+        height: 70px;
+    }
+
+    .repo-url {
+        font-size: 12px;  /* 减小源地址字体 */
+        padding: 8px !important;
+    }
+
+    .card-body {
+        padding: 0.8rem;  /* 减小卡片内边距 */
+    }
+
+    /* 减小按钮之间的间距 */
+    .gap-3 {
+        gap: 0.5rem !important;
+    }
+
+    /* 调整描述文字 */
     .text-muted {
-        color: #b0b0b0 !important;
+        font-size: 14px;
     }
-    
-    .particles-js-canvas-el {
-        opacity: 0.5;
+}
+
+/* 平板设备样式 (577px - 992px) */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .card.shadow-sm {
+        margin: 30px auto;
+        max-width: 80% !important;  /* 调整卡片最大宽度 */
+    }
+
+    .btn {
+        width: 180px !important;  /* 适中的按钮宽度 */
+    }
+
+    .avatar {
+        width: 90px;  /* 适中的头像大小 */
+        height: 90px;
+    }
+
+    .repo-url {
+        font-size: 16px;
+        padding: 12px !important;
+    }
+
+    .card-body {
+        padding: 1.5rem;
+    }
+
+    /* 调整间距 */
+    .gap-3 {
+        gap: 1rem !important;
+    }
+
+    /* 增加描述文字大小 */
+    .text-muted {
+        font-size: 16px;
+    }
+
+    /* 优化按钮布局 */
+    .btn {
+        height: 45px;  /* 适当增加按钮高度 */
+        font-size: 15px;  /* 增加字体大小 */
+    }
+}
+
+/* 大屏平板和小屏笔记本 (993px - 1200px) */
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    .card.shadow-sm {
+        margin: 40px auto;
+        max-width: 70% !important;
+    }
+
+    .btn {
+        width: 150px !important;  /* 返回较小的按钮宽度 */
+    }
+
+    /* 优化大屏下的间距 */
+    .card-body {
+        padding: 2rem;
+    }
+
+    .gap-3 {
+        gap: 1.2rem !important;
     }
 }

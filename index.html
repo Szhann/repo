@@ -30,14 +30,14 @@
                 <div class="card-body text-center d-flex flex-column justify-content-center">
                     <p class="repo-url p-3 rounded mb-3">{{ repoUrl }}</p>
                     <div class="d-flex flex-column align-items-center gap-3">
-                        <button class="btn btn-primary" @click="copyRepoUrl" style="min-width: 180px;">
+                        <button class="btn btn-primary" @click="copyRepoUrl" style="width: 150px;">
                             复制源地址
                         </button>
                         <a v-for="store in stores" 
                            :key="store.name"
                            :href="store.url + repoUrl"
                            :class="['btn d-flex align-items-center justify-content-center', store.btnClass]"
-                           style="min-width: 180px;">
+                           style="width: 150px; white-space: nowrap;">
                             <span>在{{ store.name }}中添加</span>
                         </a>
                     </div>
