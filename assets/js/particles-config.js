@@ -1,104 +1,113 @@
-// 检测系统是否处于深色模式
+// 检测是否为深色模式
 const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
 
-// 粒子效果配置
 const particlesConfig = {
-    // 粒子相关配置
     particles: {
-        // 粒子数量配置
         number: {
-            value: 80,  // 粒子数量
+            value: 80,
             density: {
                 enable: true,
-                value_area: 800  // 粒子密度区域
+                value_area: 800
             }
         },
-        // 粒子颜色配置（使用多种鲜艳的颜色）
         color: {
-            value: [
-                "#E74C3C",  // 深红
-                "#2980B9",  // 深蓝
-                "#27AE60",  // 深绿
-                "#8E44AD",  // 深紫
-                "#D35400",  // 深橙
-                "#16A085",  // 深青
-                "#C0392B",  // 暗红
-                "#2C3E50"   // 深灰蓝
+            value: isDarkMode ? [
+                "#ffffff",  // 深色模式下使用较亮的颜色
+                "#f1c40f",
+                "#e74c3c",
+                "#2ecc71",
+                "#3498db",
+                "#9b59b6"
+            ] : [
+                "#2c3e50",  // 浅色模式下使用较深的颜色
+                "#c0392b",
+                "#16a085",
+                "#8e44ad",
+                "#2980b9",
+                "#d35400"
             ]
         },
-        // 粒子形状
         shape: {
-            type: "circle"  // 使用圆形粒子
+            type: "circle"
         },
-        // 粒子透明度配置
         opacity: {
-            value: isDarkMode ? 0.7 : 0.5,  // 根据深色模式调整透明度
-            random: true,  // 随机透明度
+            value: isDarkMode ? 0.5 : 0.6,
+            random: true,
             anim: {
                 enable: true,
                 speed: 1,
-                opacity_min: 0.3,  // 最小透明度
+                opacity_min: isDarkMode ? 0.2 : 0.3,
                 sync: false
             }
         },
-        // 粒子大小配置
         size: {
-            value: 4,  // 粒子大小
-            random: true  // 随机大小
+            value: 4,
+            random: true
         },
-        // 粒子连线配置
         line_linked: {
             enable: true,
-            distance: 150,  // 连线距离
-            color: isDarkMode ? "#ffffff" : "#2C3E50",  // 根据模式调整连线颜色
-            opacity: isDarkMode ? 0.5 : 0.4,  // 连线透明度
-            width: 1  // 连线宽度
+            distance: 150,
+            color: isDarkMode ? "rgba(255,255,255,0.4)" : "rgba(44,62,80,0.4)",
+            opacity: isDarkMode ? 0.4 : 0.3,
+            width: 1
         },
-        // 粒子运动配置
         move: {
             enable: true,
-            speed: 2,  // 运动速度
-            random: true  // 随机运动
+            speed: 2,
+            random: true
         }
     },
-    // 交互配置
     interactivity: {
         detect_on: "canvas",
         events: {
-            // 鼠标悬停效果
             onhover: {
                 enable: true,
-                mode: "grab"  // 抓取效果
+                mode: "grab"
             },
-            // 点击效果
             onclick: {
                 enable: true,
-                mode: "push"  // 添加粒子
+                mode: "push"
             },
-            resize: true  // 自适应窗口大小
+            resize: true
         },
-        // 交互模式配置
         modes: {
-            // 抓取模式配置
             grab: {
                 distance: 140,
                 line_linked: {
                     opacity: 1
                 }
             },
-            // 点击添加配置
             push: {
-                particles_nb: 4  // 每次点击添加4个粒子
+                particles_nb: 4
             }
         }
     },
-    retina_detect: true  // 支持视网膜显示屏
+    retina_detect: true
 };
 
 // 初始化粒子系统
-particlesJS('particles-js', particlesConfig);
-
-// 监听深色模式变化，重新加载粒子效果
-window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
+function initParticles() {
     particlesJS('particles-js', particlesConfig);
-}); 
+}
+
+// 监听深色模式变化并平滑过渡
+const darkModeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+darkModeMediaQuery.addEventListener('change', (e) => {
+    // 更新配置中的颜色
+    particlesConfig.particles.color.value = e.matches ? [
+        "#ffffff", "#f1c40f", "#e74c3c", "#2ecc71", "#3498db", "#9b59b6"
+    ] : [
+        "#2c3e50", "#c0392b", "#16a085", "#8e44ad", "#2980b9", "#d35400"
+    ];
+    
+    particlesConfig.particles.line_linked.color = e.matches ? 
+        "rgba(255,255,255,0.4)" : "rgba(44,62,80,0.4)";
+    
+    // 重新初始化粒子
+    setTimeout(() => {
+        initParticles();
+    }, 300); // 等待背景色过渡完成
+});
+
+// 初始化
+initParticles(); 

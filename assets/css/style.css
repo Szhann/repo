@@ -11,6 +11,7 @@ body {
     background-color: var(--bs-body-bg);
     color: var(--bs-body-color);
     font-family: var(--font-family-base);
+    transition: background-color 0.3s ease;
 }
 
 /* 头像样式 */
@@ -45,6 +46,8 @@ body {
     left: 0;
     z-index: -1;
     background-color: var(--bs-body-bg);
+    opacity: 0.8;
+    transition: background-color 0.3s ease, opacity 0.3s ease;
 }
 
 #app {
@@ -381,5 +384,17 @@ footer {
 
     .gap-3 {
         gap: 1.2rem !important;
+    }
+}
+
+/* 深色模式下的粒子效果 */
+@media (prefers-color-scheme: dark) {
+    #particles-js {
+        opacity: 0.4;  /* 调整深色模式下的透明度 */
+    }
+    
+    .particles-js-canvas-el {
+        opacity: 0.6;  /* 调整深色模式下粒子的透明度 */
+        transition: opacity 0.3s ease;  /* 添加过渡效果 */
     }
 }
