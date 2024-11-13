@@ -5,10 +5,21 @@
     --font-family-mono: 'Roboto Mono', monospace;
 }
 
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+}
+
 body {
     background-color: var(--bs-body-bg);
     color: var(--bs-body-color);
     font-family: var(--font-family-base);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 /* 卡片样式 */
@@ -20,6 +31,8 @@ body {
     -webkit-backdrop-filter: blur(2px);
     border: 1px solid rgba(255, 255, 255, 0.18);
     border-radius: 16px;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
 }
 
 /* 源地址样式 */
@@ -27,27 +40,39 @@ body {
     font-family: var(--font-family-mono);
     word-break: break-all;
     user-select: all;
+    -webkit-user-select: all;
     cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
 }
 
 /* 粒子背景样式 */
 #particles-js {
     position: fixed;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     top: 0;
     left: 0;
+    right: 0;
+    bottom: 0;
     z-index: -1;
     background-color: var(--bs-body-bg);
     opacity: 0.8;
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
 }
 
 #app {
     position: relative;
     z-index: 1;
+    -webkit-tap-highlight-color: transparent;
 }
 
 /* 按钮样式 */
+.btn-cydia, .btn-sileo {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+}
+
 .btn-cydia {
     background-color: #8B4513;
     border-color: #8B4513;
@@ -93,17 +118,19 @@ body {
 
 /* 移动端适配 */
 @media screen and (max-width: 576px) {
-    .card.shadow-sm {
-        margin: 15px;
-    }
-
     .repo-url {
         font-size: 14px;
         padding: 10px !important;
     }
+}
 
-    .btn {
-        width: 150px !important;
-        height: 38px;
+/* Safari特定样式 */
+@supports (-webkit-touch-callout: none) {
+    .card.shadow-sm {
+        -webkit-backdrop-filter: blur(2px);
+    }
+    
+    body {
+        height: -webkit-fill-available;
     }
 }
