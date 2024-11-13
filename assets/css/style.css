@@ -7,7 +7,8 @@
 
 html, body {
     width: 100%;
-    height: 100%;
+    height: 100vh;
+    min-height: 100vh;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
@@ -49,6 +50,7 @@ body {
 #particles-js {
     position: fixed;
     width: 100vw;
+    min-height: 100vh;
     height: 100vh;
     top: 0;
     left: 0;
@@ -64,6 +66,7 @@ body {
 #app {
     position: relative;
     z-index: 1;
+    min-height: 100vh;
     -webkit-tap-highlight-color: transparent;
 }
 
@@ -126,11 +129,49 @@ body {
 
 /* Safari特定样式 */
 @supports (-webkit-touch-callout: none) {
-    .card.shadow-sm {
-        -webkit-backdrop-filter: blur(2px);
+    html, body {
+        height: -webkit-fill-available;
+        min-height: -webkit-fill-available;
     }
     
-    body {
-        height: -webkit-fill-available;
+    #particles-js, #app {
+        min-height: -webkit-fill-available;
+    }
+}
+
+/* 按钮容器样式 */
+.d-flex.flex-column.align-items-center {
+    gap: 1.2rem !important;  /* 强制设置间距 */
+    padding: 0.5rem 0;  /* 添加上下内边距 */
+}
+
+/* 按钮基础样式 */
+.btn {
+    margin: 0.5rem 0;  /* 添加按钮外边距 */
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* 移动端适配 */
+@media screen and (max-width: 576px) {
+    .card-body {
+        padding: 1.5rem 1rem !important;  /* 调整卡片内边距 */
+    }
+
+    .repo-url {
+        font-size: 14px;
+        padding: 10px !important;
+        margin-bottom: 1rem !important;  /* 增加源地址下方间距 */
+    }
+
+    .d-flex.flex-column.align-items-center {
+        gap: 1rem !important;  /* 移动端稍微减小间距 */
+    }
+
+    .btn {
+        margin: 0.3rem 0;  /* 移动端调整按钮外边距 */
+        height: 38px;
     }
 }
