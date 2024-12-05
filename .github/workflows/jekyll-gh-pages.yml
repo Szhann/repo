@@ -34,7 +34,15 @@ jobs:
       - name: Generate Packages file
         run: |
           sudo rm -f Packages Packages.bz2 Packages.gz
-          sudo dpkg-scanpackages --multiversion package >> Packages
+          # 为每个子目录生成单独的 Packages 条目
+          for dir in package/*/; do
+            section=$(basename "$dir")
+            sudo dpkg-scanpackages --multiversion "$dir" >> Packages.tmp
+            # 修改这个目录下所有包的 Section
+            sudo sed -i "/^Filename: ${dir//\//\\/}/,/^$/{s/^Section: .*/Section: $section/}" Packages.tmp
+          done
+          # 移动临时文件到最终文件
+          sudo mv Packages.tmp Packages
           cat Packages | gzip > Packages.gz
           cat Packages | bzip2 > Packages.bz2
       - name: Build with Jekyll
