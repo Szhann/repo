@@ -41,6 +41,8 @@ jobs:
             # 修改这个目录下所有包的 Section
             sudo sed -i "/^Filename: ${dir//\//\\/}/,/^$/{s/^Section: .*/Section: $section/}" Packages.tmp
           done
+          # 将所有 Section 的首字母大写
+          sudo sed -i 's/^Section: \([a-z]\)/Section: \U\1/' Packages.tmp
           # 移动临时文件到最终文件
           sudo mv Packages.tmp Packages
           cat Packages | gzip > Packages.gz
