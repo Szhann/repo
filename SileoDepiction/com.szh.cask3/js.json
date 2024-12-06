@@ -2,7 +2,7 @@
     "class": "DepictionTabView",
     "headerImage": "https://repo.zhooo.cn/SileoDepiction/com.szh.cask3/banner.png",
     "tintColor": "#FF4455",
-    "minVersion": "0.3",
+    "minVersion": "0.4",
     "tabs": [
         {
             "class": "DepictionStackView",
@@ -11,50 +11,30 @@
                 {
                     "class": "DepictionButtonView",
                     "text": "兼容iOS14.0以上",
-                    "action":"",                  
-                    "tintColor": "#FF7799",
+                    "action": "",                  
+                    "tintColor": "#FF7799"
                 },
                 {
                     "class": "DepictionSeparatorView"
-                },
-                {
-                    "class": "DepictionSpacerView",
-                    "spacing": 16
                 },
                 {
                     "class": "DepictionMarkdownView",
                     "markdown": "# Cask 3\n\n",
-                    "useSpacing": false,
-                },
-                {
-                    "class": "DepictionSpacerView",
-                    "spacing": 16
+                    "useSpacing": false
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### Cask 3 brings animated table scrolling to all tables to iOS 14 and up. For lower iOS firmwares, try the original Cask by Ryan Petrich or Cask 2.\n\n\n\nCask 3 is open source and can be found here: <https://github.com/ryannair05/Cask-3>",
-                    "useSpacing": false,
-                },
-                {
-                    "class": "DepictionSpacerView",
-                    "spacing": 16
+                    "markdown": "### 功能介绍\nCask 3 为所有表格带来了动画滚动效果，支持 iOS 14 及以上版本。",
+                    "useSpacing": false
                 },
                 {
                     "class": "DepictionSeparatorView"
-                },
-                {
-                    "class": "DepictionSpacerView",
-                    "spacing": 16
                 },
                 {
                     "class": "DepictionHeaderView",
                     "title": "屏幕截图",
                     "useBoldText": true,
                     "useBottomMargin": false
-                },
-                {
-                    "class": "DepictionSpacerView",
-                    "spacing": 16
                 },
                 {
                     "class": "DepictionScreenshotsView",
@@ -72,25 +52,13 @@
                     ]
                 },
                 {
-                    "class": "DepictionSpacerView",
-                    "spacing": 16
-                },
-                {
                     "class": "DepictionSeparatorView"
-                },
-                {
-                    "class": "DepictionSpacerView",
-                    "spacing": 16
                 },
                 {
                     "class": "DepictionHeaderView",
                     "title": "详情",
                     "useBoldText": true,
                     "useBottomMargin": false
-                },
-                {
-                    "class": "DepictionSpacerView",
-                    "spacing": 8
                 },
                 {
                     "class": "DepictionTableTextView",
@@ -104,7 +72,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "iOS14以上",
+                    "text": "iOS14及以上",
                     "title": "支持范围"
                 },
                 {
@@ -128,5 +96,5 @@
                 }
             ]
         }
-    ],
+    ]
 }
