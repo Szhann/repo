@@ -16,12 +16,6 @@
             "hideShadow": false
         },
         {
-            "url": "https://repo.zhooo.cn/SileoDepiction/HeaderImages/Default.png",
-            "title": "QQ净化",
-            "package": "com.szh.qqpurification",
-            "hideShadow": false
-        },
-        {
             "url": "https://repo.zhooo.cn/SileoDepiction/HeaderImages/FontBanner.png",
             "title": "花风手写体小字体85%",
             "package": "com.szh.huafengshouxie85",
