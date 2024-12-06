@@ -12,17 +12,20 @@
                     "class": "DepictionCardView",
                     "views": [
                         {
-                            "class": "DepictionHeaderView",
-                            "title": "兼容性",
-                            "useBoldText": true,
-                            "useBottomMargin": false
-                        },
-                        {
-                            "class": "DepictionMarkdownView",
-                            "markdown": "兼容 iOS 14.0 及以上版本。",
-                            "useSpacing": false
+                            "class": "DepictionButtonView",
+                            "text": "兼容 iOS 14.0 及以上版本",
+                            "action": "",
+                            "tintColor": "#FF7799",
+                            "view": {
+                                "borderRadius": 5,
+                                "borderColor": "#FFFFFF",
+                                "borderWidth": 1
+                            }
                         }
                     ]
+                },
+                {
+                    "class": "DepictionSeparatorView"
                 },
                 {
                     "class": "DepictionCardView",
@@ -39,6 +42,9 @@
                             "useSpacing": false
                         }
                     ]
+                },
+                {
+                    "class": "DepictionSeparatorView"
                 },
                 {
                     "class": "DepictionCardView",
