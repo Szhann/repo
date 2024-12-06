@@ -9,80 +9,62 @@
             "tabname": "描述",
             "views": [
                 {
-                    "class": "DepictionButtonView",
-                    "text": "兼容iOS14.0以上",
-                    "action": "",                  
-                    "tintColor": "#FF7799"
-                },
-                {
-                    "class": "DepictionSeparatorView"
-                },
-                {
-                    "class": "DepictionMarkdownView",
-                    "markdown": "# Cask 3\n\n",
-                    "useSpacing": false
-                },
-                {
-                    "class": "DepictionMarkdownView",
-                    "markdown": "### 功能介绍\nCask 3 为所有表格带来了动画滚动效果，支持 iOS 14 及以上版本。",
-                    "useSpacing": false
-                },
-                {
-                    "class": "DepictionSeparatorView"
-                },
-                {
-                    "class": "DepictionHeaderView",
-                    "title": "屏幕截图",
-                    "useBoldText": true,
-                    "useBottomMargin": false
-                },
-                {
-                    "class": "DepictionScreenshotsView",
-                    "itemCornerRadius": 6,
-                    "itemSize": "{160, 346.4533333333333}",
-                    "screenshots": [
+                    "class": "DepictionCardView",
+                    "views": [
                         {
-                            "accessibilityText": "Screenshot",
-                            "url": "https://repo.zhooo.cn/SileoDepiction/com.szh.cask3/Screenshot_0.png"
+                            "class": "DepictionHeaderView",
+                            "title": "兼容性",
+                            "useBoldText": true,
+                            "useBottomMargin": false
                         },
                         {
-                            "accessibilityText": "Screenshot",
-                            "url": "https://repo.zhooo.cn/SileoDepiction/com.szh.cask3/Screenshot_1.png"
+                            "class": "DepictionMarkdownView",
+                            "markdown": "兼容 iOS 14.0 及以上版本。",
+                            "useSpacing": false
                         }
                     ]
                 },
                 {
-                    "class": "DepictionSeparatorView"
+                    "class": "DepictionCardView",
+                    "views": [
+                        {
+                            "class": "DepictionHeaderView",
+                            "title": "功能介绍",
+                            "useBoldText": true,
+                            "useBottomMargin": false
+                        },
+                        {
+                            "class": "DepictionMarkdownView",
+                            "markdown": "Cask 3 为所有表格带来了动画滚动效果。",
+                            "useSpacing": false
+                        }
+                    ]
                 },
                 {
-                    "class": "DepictionHeaderView",
-                    "title": "详情",
-                    "useBoldText": true,
-                    "useBottomMargin": false
-                },
-                {
-                    "class": "DepictionTableTextView",
-                    "text": "Ryan Nair",
-                    "title": "插件作者"
-                },
-                {
-                    "class": "DepictionTableTextView",
-                    "text": "1.0",
-                    "title": "最新版本"
-                },
-                {
-                    "class": "DepictionTableTextView",
-                    "text": "iOS14及以上",
-                    "title": "支持范围"
-                },
-                {
-                    "class": "DepictionTableTextView",
-                    "text": "2023 年 01 月 24 日",
-                    "title": "更新日期"
-                },
-                {
-                    "class": "DepictionSpacerView",
-                    "spacing": 16
+                    "class": "DepictionCardView",
+                    "views": [
+                        {
+                            "class": "DepictionHeaderView",
+                            "title": "屏幕截图",
+                            "useBoldText": true,
+                            "useBottomMargin": false
+                        },
+                        {
+                            "class": "DepictionScreenshotsView",
+                            "itemCornerRadius": 6,
+                            "itemSize": "{160, 346.4533333333333}",
+                            "screenshots": [
+                                {
+                                    "accessibilityText": "Screenshot",
+                                    "url": "https://repo.zhooo.cn/SileoDepiction/com.szh.cask3/Screenshot_0.png"
+                                },
+                                {
+                                    "accessibilityText": "Screenshot",
+                                    "url": "https://repo.zhooo.cn/SileoDepiction/com.szh.cask3/Screenshot_1.png"
+                                }
+                            ]
+                        }
+                    ]
                 }
             ]
         },
