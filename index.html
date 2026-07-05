@@ -1,3 +1,13 @@
+<!--
+ * @Author: Zhooo && 24381779@qq.com
+ * @Date: 2025-01-07 20:42:18
+ * @LastEditors: Zhooo && 24381779@qq.com
+ * @LastEditTime: 2026-07-05 22:20:37
+ * @FilePath: /repo/index.html
+ * @Description: 
+ * 
+ * Copyright (c) 2026 by Zhooo, All Rights Reserved. 
+-->
 <!DOCTYPE html>
 <html lang="zh">
 <head>
@@ -15,8 +25,9 @@
 </head>
 <body class="min-h-screen bg-[#0a0a0f] text-white antialiased">
     <div class="fixed inset-0 dark-gradient" style="background: radial-gradient(ellipse_80%_50%_at_50%-20%,rgba(102,126,234,0.15),transparent),radial-gradient(ellipse_60%_40%_at_80%_60%,rgba(118,75,162,0.1),transparent),radial-gradient(ellipse_50%_30%_at_20%_80%,rgba(240,147,251,0.08),transparent),#0a0a0f;"></div>
+    <div id="pixi-particles" class="fixed inset-0 pointer-events-none z-[1]"></div>
     <div class="fixed inset-0 pointer-events-none dark-grid" style="background-image: linear-gradient(rgba(255,255,255,0.02) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.02) 1px, transparent 1px); background-size: 60px 60px;"></div>
-    <div class="fixed inset-0 pointer-events-none overflow-hidden">
+    <div class="fixed inset-0 pointer-events-none overflow-hidden z-[2]">
         <div class="absolute w-[400px] h-[400px] rounded-full blur-[80px] bg-[rgba(102,126,234,0.3)] -top-[100px] -left-[100px] dark-glow" style="animation: float 20s ease-in-out infinite;"></div>
         <div class="absolute w-[300px] h-[300px] rounded-full blur-[80px] bg-[rgba(240,147,251,0.25)] -bottom-[50px] -right-[50px] dark-glow" style="animation: float 20s ease-in-out infinite; animation-delay: -7s;"></div>
         <div class="absolute w-[250px] h-[250px] rounded-full blur-[80px] bg-[rgba(118,75,162,0.3)] top-1/2 left-[60%] dark-glow" style="animation: float 20s ease-in-out infinite; animation-delay: -14s;"></div>
@@ -75,6 +86,8 @@
         <div class="fixed top-6 left-1/2 -translate-x-1/2 bg-[#667eea]/95 text-white px-6 py-3 rounded-lg font-medium opacity-0 pointer-events-none transition-all duration-300" :class="{ 'opacity-100 translate-y-0': isToastVisible }" style="transform: translateX(-50%) translateY(-20px);">{{ toastText }}</div>
     </div>
 
+    <script src="https://pixijs.download/v8.9.2/pixi.min.js"></script>
+    <script src="assets/js/pixi-particles.js"></script>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script src="assets/js/app.js"></script>
 </body>
